@@ -15,9 +15,9 @@ class Admin::BudgetInvestments::ToggleSelectionComponent < ApplicationComponent
 
     def text
       if selected?
-        t("admin.budget_investments.index.selected")
+        t("shared.yes")
       else
-        t("admin.budget_investments.index.select")
+        t("shared.no")
       end
     end
 
@@ -34,11 +34,18 @@ class Admin::BudgetInvestments::ToggleSelectionComponent < ApplicationComponent
       )
     end
 
-    def html_class
-      if selected?
-        "button small hollow expanded"
-      else
-        "button small expanded"
-      end
+    def options
+      {
+        method: :patch,
+        remote: true,
+        class: "investment-toggle-selection",
+        "aria-label": label,
+        "aria-pressed": selected?
+      }
+    end
+
+    def label
+      # TODO: Use I18n
+      "#{t("admin.budget_investments.index.selected")} #{investment.title}"
     end
 end
