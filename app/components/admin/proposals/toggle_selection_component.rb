@@ -9,9 +9,9 @@ class Admin::Proposals::ToggleSelectionComponent < ApplicationComponent
 
     def text
       if proposal.selected?
-        t("admin.proposals.index.selected")
+        t("shared.yes")
       else
-        t("admin.proposals.index.select")
+        t("shared.no")
       end
     end
 
@@ -20,14 +20,16 @@ class Admin::Proposals::ToggleSelectionComponent < ApplicationComponent
     end
 
     def options
-      { remote: true, method: :patch, class: html_class }
+      {
+        remote: true,
+        method: :patch,
+        class: "proposal-toggle-selection",
+        "aria-label": label,
+        "aria-pressed": proposal.selected?
+      }
     end
 
-    def html_class
-      if proposal.selected?
-        "button expanded"
-      else
-        "button hollow expanded"
-      end
+    def label
+      t("admin.proposals.index.select", proposal: proposal.title)
     end
 end
