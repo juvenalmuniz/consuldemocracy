@@ -55,6 +55,7 @@
 <td class="small text-center" data-field="visible_to_valuators">
   <% if can?(:admin_update, investment) %>
     <%= form_for [:admin, investment.budget, investment], remote: true, format: :json do |f| %>
+        <%# TODO %>
         <%= f.check_box :visible_to_valuators,
                         label: false,
                         class: "js-submit-on-change",
