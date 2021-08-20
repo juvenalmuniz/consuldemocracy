@@ -1,16 +1,17 @@
-<% if investment.selected? %>
-  <%= link_to_if can?(:toggle_selection, investment),
-                 t("admin.budget_investments.index.selected"),
-                 path,
-                 method: :patch,
-                 remote: true,
-                 class: "button small expanded" %>
-<% elsif investment.feasible? && investment.valuation_finished? %>
-  <% if can?(:toggle_selection, investment) %>
+<% if can?(:toggle_selection, investment) %>
+  <% if investment.selected? %>
+    <%= link_to t("admin.budget_investments.index.selected"),
+                path,
+                method: :patch,
+                remote: true,
+                class: "button small expanded" %>
+  <% elsif investment.feasible? && investment.valuation_finished? %>
     <%= link_to t("admin.budget_investments.index.select"),
                 path,
                 method: :patch,
                 remote: true,
                 class: "button small hollow expanded" %>
   <% end %>
+<% else %>
+  <%= t("admin.budget_investments.index.selected") if investment.selected? %>
 <% end %>
