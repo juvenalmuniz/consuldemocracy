@@ -1,7 +1,7 @@
 class Admin::BudgetInvestments::ToggleSelectionComponent < ApplicationComponent
+  include Admin::SwitchText
   attr_reader :investment
   delegate :can?, to: :controller
-  delegate :selected?, to: :investment
 
   def initialize(investment)
     @investment = investment
@@ -13,12 +13,8 @@ class Admin::BudgetInvestments::ToggleSelectionComponent < ApplicationComponent
       investment.budget
     end
 
-    def text
-      if selected?
-        t("shared.yes")
-      else
-        t("shared.no")
-      end
+    def checked?
+      investment.selected?
     end
 
     def path
@@ -40,7 +36,7 @@ class Admin::BudgetInvestments::ToggleSelectionComponent < ApplicationComponent
         remote: true,
         class: "investment-toggle-selection",
         "aria-label": label,
-        "aria-pressed": selected?
+        "aria-pressed": checked?
       }
     end
 

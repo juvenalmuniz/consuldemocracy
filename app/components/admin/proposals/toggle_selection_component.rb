@@ -1,4 +1,5 @@
 class Admin::Proposals::ToggleSelectionComponent < ApplicationComponent
+  include Admin::SwitchText
   attr_reader :proposal
 
   def initialize(proposal)
@@ -7,12 +8,8 @@ class Admin::Proposals::ToggleSelectionComponent < ApplicationComponent
 
   private
 
-    def text
-      if proposal.selected?
-        t("shared.yes")
-      else
-        t("shared.no")
-      end
+    def checked?
+      proposal.selected?
     end
 
     def path
@@ -25,7 +22,7 @@ class Admin::Proposals::ToggleSelectionComponent < ApplicationComponent
         method: :patch,
         class: "proposal-toggle-selection",
         "aria-label": label,
-        "aria-pressed": proposal.selected?
+        "aria-pressed": checked?
       }
     end
 
