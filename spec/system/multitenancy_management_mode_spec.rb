@@ -25,4 +25,33 @@ describe "Multitenancy management mode", :admin do
       expect(page).to have_css "li", count: 2
     end
   end
+
+  scenario "redirects root path requests to the admin tenants path" do
+    visit root_path
+
+    expect(page).to have_content "CONSUL ADMINISTRATION", normalize_ws: true
+    expect(page).to have_content "Multitenancy"
+    expect(page).not_to have_content "Most active proposals"
+  end
+
+  scenario "does not redirect other tenants when visiting the root path", :seed_tenants do
+    create(:tenant, schema: "mars")
+
+    with_subdomain("mars") do
+      visit root_path
+
+      expect(page).to have_content "Most active proposals"
+      expect(page).not_to have_content "Multitenancy"
+      expect(page).not_to have_content "CONSUL ADMINISTRATION", normalize_ws: true
+    end
+  end
+
+  scenario "redirects to account path when regular user try access to admin section" do
+    logout
+    login_as(create(:user))
+
+    visit admin_root_path
+
+    expect(page).to have_current_path(account_path)
+  end
 end
