@@ -34,10 +34,8 @@ module OmniauthTenantSetup
       end
 
       def oauth2(env, key, secret)
-        unless Tenant.default?
-          env["omniauth.strategy"].options[:client_id] = key
-          env["omniauth.strategy"].options[:client_secret] = secret
-        end
+        env["omniauth.strategy"].options[:client_id] = key
+        env["omniauth.strategy"].options[:client_secret] = secret
       end
 
       def secrets

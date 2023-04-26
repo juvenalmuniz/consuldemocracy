@@ -256,8 +256,6 @@ Devise.setup do |config|
                   info_fields: "email,name,verified",
                   setup: OmniauthTenantSetup.facebook
   config.omniauth :google_oauth2,
-                  Rails.application.secrets.google_oauth2_key,
-                  Rails.application.secrets.google_oauth2_secret,
                   setup: OmniauthTenantSetup.google_oauth2
   config.omniauth :wordpress_oauth2,
                   Rails.application.secrets.wordpress_oauth2_key,
