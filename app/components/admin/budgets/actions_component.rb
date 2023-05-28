@@ -66,16 +66,16 @@ class Admin::Budgets::ActionsComponent < ApplicationComponent
                path: create_budget_poll_path,
                method: :post,
                confirm: t("admin.budgets.actions.confirm.ballots"),
-               disabled: !Setting["process.polls"])
+               disabled: !feature?("polls"))
       end
     end
 
     def ballots_hint
-      if !Setting["process.polls"]
+      if feature?("polls")
+        t("admin.budgets.actions.descriptions.ballots")
+      else
         link = admin_settings_path(anchor: "tab-participation-processes")
         t("admin.budgets.ballots.feature_disabled", link: link)
-      else
-        t("admin.budgets.actions.descriptions.ballots")
       end
     end
 
