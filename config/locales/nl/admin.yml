@@ -97,7 +97,7 @@ nl:
         calculate: Bereken gewonnen bestemmingen
         calculated: Bestemmingen worden berekend, kan even duren.
         recalculate: Herbereken gewonnen investeringen
-  budget_groups:
+    budget_groups:
       name: "Name"
       headings_name: "Rubrieken"
       headings_manage: "Rubrieken beheren"
