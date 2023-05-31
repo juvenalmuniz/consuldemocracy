@@ -30,5 +30,23 @@ describe Admin::Budgets::ActionsComponent, controller: Admin::BaseController do
       expect(page).not_to have_css "form[action*='polls']"
       expect(page).not_to have_button "Create booths"
     end
+
+    it "is disabled when the polls feature is disabled" do
+      Setting["process.polls"] = false
+
+      render_inline component
+
+      expect(page).to have_css ".ballots-link[disabled]"
+      expect(page).to have_link(href: "/admin/settings#tab-participation-processes")
+    end
+
+    it "is enabled when the polls feature is enabled" do
+      Setting["process.polls"] = true
+
+      render_inline component
+
+      expect(page).not_to have_css ".ballots-link[disabled]"
+      expect(page).not_to have_link "settings configuration"
+    end
   end
 end

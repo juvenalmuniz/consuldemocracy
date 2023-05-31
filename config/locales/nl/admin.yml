@@ -97,6 +97,8 @@ nl:
         calculate: Bereken gewonnen bestemmingen
         calculated: Bestemmingen worden berekend, kan even duren.
         recalculate: Herbereken gewonnen investeringen
+      ballots:
+        feature_disabled: '<strong>Peilingen</strong> moeten ingeschakeld worden om stemhokjes aan te maken. Je kan dit in de <a href="%{link}">instellingen</a> aanpassen.'
     budget_groups:
       name: "Name"
       headings_name: "Rubrieken"
