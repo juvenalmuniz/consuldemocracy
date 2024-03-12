@@ -309,6 +309,7 @@ describe "Proposal's dashboard" do
     click_link(feature.title)
 
     expect(page).not_to have_button("Request")
+    expect(page).to have_button("Request")
   end
 
   scenario "Resource admin request button do not appear on archived proposals" do
