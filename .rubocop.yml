@@ -438,6 +438,8 @@ Rails/Pick:
 
 Rails/PluckId:
   Enabled: true
+  Exclude:
+    - app/controllers/budgets/invesments_controller.rb
 
 Rails/PluralizationGrammar:
   Enabled: true
