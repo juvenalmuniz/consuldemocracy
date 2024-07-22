@@ -1,4 +1,4 @@
-# Configuración para los entornos de desarrollo y pruebas (Ubuntu 18.04)
+# Configuración para los entornos de desarrollo y pruebas (Ubuntu 24.04)
 
 ## Actualización de sistema
 
@@ -37,12 +37,15 @@ source ~/.bashrc
 
 ## Node.js
 
-Para compilar los archivos estáticos (JS, CSS, imágenes, etc.), es necesario un _runtime_ de JavaScript. Node.js es la opción recomendada.
+Para compilar los archivos estáticos (JS, CSS, imágenes, etc.), es necesario un _runtime_ de JavaScript. Estamos utilizando la versión 18.20.3 de Node.js. Para gestionar las versiones de Node.js, usaremos NVM:
 
 Ejecuta en tu terminal:
 
 ```bash
-sudo apt install nodejs
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+source ~/.bashrc
+nvm install 18.20.3
+nvm use 18.20.3
 ```
 
 ## PostgreSQL
@@ -97,17 +100,6 @@ Instala Imagemagick:
 
 ```bash
 sudo apt install imagemagick
-```
-
-## ChromeDriver
-
-Para realizar pruebas de integración, usamos Selenium junto a Headless Chrome.
-
-Para poder utilizarlo, instala el paquete chromium-chromedrive y asegúrate de que se encuentre enlazado en algún directorio que esté en la variable de entorno PATH:
-
-```bash
-sudo apt install chromium-chromedriver
-sudo ln -s /usr/lib/chromium-browser/chromedriver /usr/local/bin/
 ```
 
 ¡Ya estás listo para [instalar Consul Democracy](local_installation.md)!
