@@ -23,7 +23,7 @@ Las versiones de Ruby empaquetadas en repositorios oficiales no son aptas para t
 En primer lugar, necesitamos los siguiente paquetes para poder instalar Ruby:
 
 ```bash
-sudo apt install libssl-dev autoconf bison build-essential libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm5 libgdbm-dev
+sudo apt install libssl-dev autoconf bison build-essential libyaml-dev libreadline-dev zlib1g-dev libncurses-dev libffi-dev libgdbm-dev
 ```
 
 A continuación instalaremos un gestor de versiones de Ruby, como rbenv:
