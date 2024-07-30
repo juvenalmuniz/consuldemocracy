@@ -1,3 +1,10 @@
+set :ssh_options, {
+    forward_agent: true,
+    verbose: :debug,
+    auth_methods: %w(publickey password),
+    keys: %w(~/.ssh/id_rsa)
+}
+
 set :branch, ENV["branch"] || :master
 
 server main_deploy_server, user: deploysecret(:user), roles: %w[web app db importer cron background]
