@@ -22,7 +22,8 @@ set :application, deploysecret(:app_name, default: "consul")
 set :deploy_to, deploysecret(:deploy_to)
 set :ssh_options, port: deploysecret(:ssh_port)
 
-set :repo_url, "git@gitlab.ufms.br:terceiros/consuldemocracy.git"
+# set :repo_url, "git@gitlab.ufms.br:terceiros/consuldemocracy.git"
+set :repo_url, "https://github.com/juvenalmuniz/consuldemocracy.git"
 
 set :revision, `git rev-parse --short #{fetch(:branch)}`.strip
 
