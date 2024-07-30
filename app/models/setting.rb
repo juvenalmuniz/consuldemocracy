@@ -66,9 +66,10 @@ class Setting < ApplicationRecord
     def defaults
       {
         "feature.featured_proposals": nil,
-        "feature.facebook_login": true,
-        "feature.google_login": true,
-        "feature.twitter_login": true,
+        "feature.facebook_login": false,
+        "feature.google_login": false,
+        "feature.twitter_login": false,
+        "feature.keycloak_login": true,
         "feature.wordpress_login": false,
         "feature.signature_sheets": true,
         "feature.user.recommendations": true,

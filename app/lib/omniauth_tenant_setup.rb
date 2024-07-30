@@ -3,6 +3,10 @@ module OmniauthTenantSetup
     def twitter(env)
       oauth(env, secrets.twitter_key, secrets.twitter_secret)
     end
+    
+    def keycloak(env)
+      oauth2(env, secrets.keycloak_openid_key, secrets.keycloak_openid_secret)
+    end
 
     def facebook(env)
       oauth2(env, secrets.facebook_key, secrets.facebook_secret)

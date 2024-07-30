@@ -6,6 +6,10 @@ class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
   def facebook
     sign_in_with :facebook_login, :facebook
   end
+  
+  def keycloak_openid
+    sign_in_with :keycloak_login, :keycloak_openid
+  end
 
   def google_oauth2
     sign_in_with :google_login, :google_oauth2

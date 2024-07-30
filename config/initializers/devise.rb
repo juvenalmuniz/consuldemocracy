@@ -277,6 +277,12 @@ Devise.setup do |config|
                   scope: "email",
                   info_fields: "email,name,verified",
                   setup: ->(env) { OmniauthTenantSetup.facebook(env) }
+  config.omniauth :keycloak_openid,
+                  Rails.application.secrets.keycloak_openid_key,
+                  Rails.application.secrets.keycloak_openid_secret,
+                  scope: "openid",
+                  info_fields: "email,name,verified",
+                  setup: ->(env) { OmniauthTenantSetup.keycloak(env) }
   config.omniauth :google_oauth2,
                   Rails.application.secrets.google_oauth2_key,
                   Rails.application.secrets.google_oauth2_secret,

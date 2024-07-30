@@ -255,6 +255,10 @@ pt-BR:
       sign_in: Iniciar sessão com o Google
       sign_up: Inscrever-se com o Google
       name: Google
+    keycloak_openid:
+      sign_in: Iniciar sessão com o Passaporte UFMS
+      sign_up: Inscrever-se com o Passaporte UFMS
+      name: Passaporte UFMS
     wordpress_oauth2:
       sign_in: Entrar com o Wordpress
       sign_up: Cadastrar-se com o Wordpress
