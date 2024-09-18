@@ -3,6 +3,8 @@ source "https://rubygems.org"
 gem "rails", "7.0.8.4"
 
 gem "acts-as-taggable-on", "~> 10.0.0"
+gem "ed25519", "~> 1.2"
+gem "bcrypt_pbkdf", "~> 1.0"
 gem "acts_as_votable", "~> 0.14.0"
 gem "ahoy_matey", "~> 5.0.2"
 gem "airbrake", "~> 13.0.4"
