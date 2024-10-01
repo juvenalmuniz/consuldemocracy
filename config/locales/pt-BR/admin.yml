@@ -4,6 +4,7 @@ pt-BR:
       title: Administração
     actions:
       actions: Ações
+      block_author: "Bloquear o autor"
       confirm_hide: Confirmar a moderação
       delete: "Apagar"
       hide: Ocultar
