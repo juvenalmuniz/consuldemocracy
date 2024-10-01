@@ -352,7 +352,7 @@ pt-BR:
         description: Bem-vindo ao painel de administração %{org}.
       actions:
         index:
-          description: "Quando os usuários criam propostas, eles podem acessar um painel com o progresso da sua proposta, no qual é possível propor-lhes recursos y recomendações para conseguir apoios para as suas ideias."
+          description: "Quando os usuários criam propostas, eles podem acessar um painel com o progresso da sua proposta, no qual é possível propor-lhes recursos e recomendações para conseguir apoios para as suas ideias."
           create: Criar recurso ou ação
           active: "Sim"
           inactive: "Não"
