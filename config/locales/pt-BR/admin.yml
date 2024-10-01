@@ -1407,6 +1407,9 @@ pt-BR:
         document_number: Número do documento
         roles: Papéis
         verification_level: Nível de verificação
+      account:
+        active_status: Conta confirmada
+        inactive_status: Conta não confirmada
       index:
         title: Usuário
         no_users: Não há usuários.
