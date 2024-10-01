@@ -126,6 +126,8 @@ pt-BR:
       dashboard:
         notification_emails: "Emails de notificações do painel de progresso"
         notification_emails_description: "Ativar o envio de emails de notificações aos autores das propostas na seção do painel de progresso"
+      remove_investments_supports: "Permitir retirar os apoios dos projetos de gasto"
+      remove_investments_supports_description: "Permitir que os usuários retirem seu apoio nos projetos de gasto dos orçamentos participativos na fase de apoios."
       sdg: ODS (SDG)
       sdg_description: Habilitar seções de Objetivos de Desenvolvimento Sustentável no menu de administração e nas Configurações Globais.
     remote_census:
