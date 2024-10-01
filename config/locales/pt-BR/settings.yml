@@ -167,6 +167,9 @@ pt-BR:
         valid: "Condição para detectar uma resposta válida"
         valid_description: "Que caminho de resposta deve vir informado para que a resposta seja válida"
     map:
+      feature:
+        marker_clustering: "Grupo de marcadores"
+        marker_clustering_description: "Ativa o agrupamento de marcadores no mapa. Útil para quando há muitos marcadores para exibir."
       latitude: "Latitude"
       latitude_description: "Latitude para mostrar a posição no mapa"
       longitude: "Longitude"
