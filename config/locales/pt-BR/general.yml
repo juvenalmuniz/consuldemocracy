@@ -77,7 +77,7 @@ pt-BR:
       show_link: Ver debate
     form:
       tags_instructions: Marcar este debate.
-      tags_placeholder: 'Entre com as marcações que você deseja usar, separadas por vírgulas (''s")'
+      tags_placeholder: "Entre com as marcações que você deseja usar, separadas por vírgulas (,)"
     index:
       featured_debates: Destacado
       orders:
@@ -310,7 +310,7 @@ pt-BR:
       tag_category_label: "Categorias"
       tags_instructions: "Marque esta proposta. Você pode escolher entre as categorias propostas ou adicionar a sua própria"
       tags_label: Marcação
-      tags_placeholder: 'Entre com as marcações que você deseja usar, separadas por vírgulas (''s")'
+      tags_placeholder: "Entre com as marcações que você deseja usar, separadas por vírgulas (,)"
       map_location: "Localização do mapa"
       map_location_instructions: "Navegue no mapa até o local e fixe o marcador."
       map_remove_marker: "Remover o marcador do mapa"

@@ -89,6 +89,8 @@ pt-BR:
         targets:
           no_local_targets: Este objetivo não tem metas locais
     related_list_selector:
+      goal_list: "Você pode selecionar um ou mais ODS com os quais se alinha sua %{record}"
+      hint: Você pode inserir o código de um objetivo/meta específico ou um texto para encontrá-lo. Para mais informações, visite %{link}.
       help:
         text: "Página de ajuda ODS (SDG)"
       remove_tag: "Remover"
