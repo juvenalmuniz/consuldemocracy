@@ -13,10 +13,10 @@ es:
       menu:
         debates: "Debates"
         proposals: "Propuestas"
-        budgets: "Presupuestos participativos"
+        budgets: "Orçamentos participativos"
         polls: "Votaciones"
         other: "Otra información de interés"
-        processes: "Legislación colaborativa"
+        processes: "Processos legislativos"
       debates:
         title: "Debates"
         description: "En la sección de %{link} puedes exponer y compartir tu opinión con otras personas sobre temas que te preocupan relacionados con la ciudad. También es un espacio donde generar ideas que a través de las otras secciones de %{org} lleven a actuaciones concretas por parte del Ayuntamiento."
@@ -44,9 +44,9 @@ es:
         feature_1: "Para participar en las votaciones tienes que %{link} y verificar tu cuenta."
         feature_1_link: "registrarte en %{org_name}"
       processes:
-        title: "Legislación colaborativa"
+        title: "Processos legislativos"
         description: "En la sección de %{link} la ciudadanía participa en la elaboración y modificación de normativa que afecta a la ciudad y puede dar su opinión sobre las políticas municipales en debates previos."
-        link: "legislación colaborativa"
+        link: "processos legislativos"
         feature: "Para participar en la legislación colaborativa tienes que %{link} y verificar tu cuenta."
         feature_link: "registrarte en %{org_name}"
       faq:
@@ -91,23 +91,17 @@ es:
           key_header: Tecla
           page_header: Página
           rows:
-            -
-              key_column: 0
+            - key_column: 0
               page_column: Inicio
-            -
-              key_column: 1
+            - key_column: 1
               page_column: Debates
-            -
-              key_column: 2
+            - key_column: 2
               page_column: Propuestas
-            -
-              key_column: 3
+            - key_column: 3
               page_column: Votaciones
-            -
-              key_column: 4
+            - key_column: 4
               page_column: Presupuestos participativos
-            -
-              key_column: 5
+            - key_column: 5
               page_column: Legislación colaborativa
         browser_table:
           description: "Dependiendo del sistema operativo y del navegador que se utilice, la combinación de teclas será la siguiente:"
@@ -115,20 +109,15 @@ es:
           browser_header: Navegador
           key_header: Combinación de teclas
           rows:
-            -
-              browser_column: Explorer
+            - browser_column: Explorer
               key_column: ALT + atajo y luego ENTER
-            -
-              browser_column: Firefox
+            - browser_column: Firefox
               key_column: ALT + MAYÚSCULAS + atajo
-            -
-              browser_column: Chrome
+            - browser_column: Chrome
               key_column: ALT + atajo (si es un MAC, CTRL + ALT + atajo)
-            -
-              browser_column: Safari
+            - browser_column: Safari
               key_column: ALT + atajo (si es un MAC, CMD + atajo)
-            -
-              browser_column: Opera
+            - browser_column: Opera
               key_column: MAYÚSCULAS + ESC + atajo
       textsize:
         title: Tamaño del texto
@@ -137,29 +126,22 @@ es:
           browser_header: Navegador
           action_header: Acción a realizar
           rows:
-            -
-              browser_column: Explorer
+            - browser_column: Explorer
               action_column: Ver > Tamaño del texto
-            -
-              browser_column: Firefox
+            - browser_column: Firefox
               action_column: Ver > Tamaño
-            -
-              browser_column: Chrome
+            - browser_column: Chrome
               action_column: Ajustes (icono) > Opciones > Avanzada > Contenido web > Tamaño fuente
-            -
-              browser_column: Safari
+            - browser_column: Safari
               action_column: Visualización > ampliar/reducir
-            -
-              browser_column: Opera
+            - browser_column: Opera
               action_column: Ver > escala
         browser_shortcuts_table:
           description: "Otra forma de modificar el tamaño de texto es utilizar los atajos de teclado definidos en los navegadores, en particular la combinación de teclas:"
           rows:
-            -
-              shortcut_column: CTRL y + (CMD y + en MAC)
+            - shortcut_column: CTRL y + (CMD y + en MAC)
               description_column: para aumentar el tamaño del texto
-            -
-              shortcut_column: CTRL y - (CMD y - en MAC)
+            - shortcut_column: CTRL y - (CMD y - en MAC)
               description_column: para reducir el tamaño del texto
       compatibility:
         title: Compatibilidad con estándares y diseño visual

@@ -213,7 +213,7 @@ pt-BR:
       budgets: Orçamento participativo
       notification_item:
         new_notifications:
-          zero: "Vocie nnao possui novas notificações"
+          zero: "Você não possui novas notificações"
           one: Você tem uma nova notificação
           other: Você tem %{count} novas notificações
         notifications: Notificações
