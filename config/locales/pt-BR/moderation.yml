@@ -99,6 +99,8 @@ pt-BR:
         title: Notificações de proposta
     users:
       index:
+        confirm_block: 'Tem certeza? Isto ocultará o "%{name}" assim como todos os seus conteúdos.'
+        confirm_hide: 'Tem certeza? Isto ocultará o "%{name}" sem ocultar seus conteúdos.'
         hide: Bloquear
         search_placeholder: e-mail ou nome de usuário
         title: Bloquear usuários
