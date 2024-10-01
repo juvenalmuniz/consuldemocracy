@@ -350,6 +350,16 @@ pt-BR:
         back: Voltar para %{org}
         title: Administração
         description: Bem-vindo ao painel de administração %{org}.
+        info: |-
+          <p>Este é o local onde você, como administrador, implementa e supervisiona o processo de participação cidadã em sua cidade ou região.</p>
+
+          <p>Agora você é um entre centenas de governos e municípios ao redor do mundo que estão usando a plataforma CONSUL DEMOCRACY para colocar em prática a participação dos cidadãos. Parabéns!</p>
+
+          <p>A Fundação CONSUL DEMOCRACY está no centro da comunidade global de usuários. Gostaríamos de pedir que você entre em contato conosco para saber quem utiliza o software e ver como podemos ajudar na sua implementação ou utilização. Estamos ansiosos para recebê-lo na comunidade.</p>
+
+          <p>Boa administração!</p>
+
+          <p>Saudações da equipe da Fundação CONSUL DEMOCRACY.</p>
       actions:
         index:
           description: "Quando os usuários criam propostas, eles podem acessar um painel com o progresso da sua proposta, no qual é possível propor-lhes recursos e recomendações para conseguir apoios para as suas ideias."
