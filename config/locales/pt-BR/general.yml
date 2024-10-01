@@ -754,7 +754,7 @@ pt-BR:
     login_to_comment: "Você precisa %{signin} ou %{signup} para fazer um comentário."
     login_to_continue: "Você precisa %{signin} ou %{signup} para continuar."
     signin: "iniciar sessão"
-    signup: "registrar-se"
+    signup: "registre-se"
     verify_account: "verifique sua conta"
     direct_messages:
       new:
