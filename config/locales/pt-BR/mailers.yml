@@ -2,6 +2,10 @@ pt-BR:
   mailers:
     title: "UFMS"
     no_reply: "Esta mensagem foi enviada de um endereço de e-mail que não aceita respostas."
+    already_confirmed:
+      info: "Recebemos uma solicitação de envio de instruções para confirmar sua conta. Entretanto, sua conta já está confirmada, não sendo necessário confirmá-la novamente."
+      new_password: "Caso tenha esquecido sua senha, você pode redefini-la no seguinte link:"
+      subject: Sua conta já está confirmada
     comment:
       hi: Oi
       new_comment_by: Há um novo comentário de <strong>%{commenter}</strong>
