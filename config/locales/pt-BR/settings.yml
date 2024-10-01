@@ -58,6 +58,8 @@ pt-BR:
     meta_keywords_description: 'Palavras-chave <meta name=<"keywords">, usado para melhorar o SEO'
     min_age_to_participate: Idade mínima para participar
     min_age_to_participate_description: "Usuários acima dessa idade podem participar de todo o processo"
+    postal_codes: "CEPs"
+    postal_codes_description: "Uma lista de CEPs separados por vírgulas."
     proposals:
       successful_proposal_id: Proposta bem-sucedida
       successful_proposal_id_description: Esta proposta é utilizada como referencia de uma proposta exitosa em número de apoios e será mostrará no gráfico do painel de control.
