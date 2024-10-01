@@ -78,7 +78,7 @@ pt-BR:
       index:
         title: Orçamento participativo
         unfeasible: Projetos de investimento inviáveis
-        unfeasible_text: "As propostas devem atender a uma série de critérios (legalidade, concretude, ser de responsabilidade da cidade, não exceder o limite do orçamento) para serem declaradas viáveis e chegarem ao estágio de votação final. Todas as propostas que não atendem a esses critérios são marcadas como inviáveis e publicadas na lista a seguir, juntamente com seu relatório de inviabilidade."
+        unfeasible_text: "As propostas devem atender a uma série de critérios (legalidade, concretude, ser de responsabilidade do câmpus, não exceder o limite do orçamento) para serem declaradas viáveis e chegarem ao estágio de votação final. Todas as propostas que não atendem a esses critérios são marcadas como inviáveis e publicadas na lista a seguir, juntamente com seu relatório de inviabilidade."
         by_heading: "Projetos de investimento com escopo: %{heading}"
         search_form:
           button: Buscar

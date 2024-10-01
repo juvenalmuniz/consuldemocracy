@@ -706,6 +706,8 @@ pt-BR:
       districts: "Câmpus"
       districts_list: "Lista de câmpus"
       categories: "Categorias"
+    required: "Campos Obrigatórios"
+    optional: "Campo opcionais"
     target_blank: " (link abre em nova janela)"
     you_are_in: "Você está em"
     unflag: Desmarcar
