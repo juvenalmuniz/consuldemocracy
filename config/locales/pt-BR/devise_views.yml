@@ -101,7 +101,7 @@ pt-BR:
           organization_signup_link: Inscreva-se aqui
           password_confirmation_label: Confirmar senha
           submit: Registre-se
-          terms: Ao registrar-se você aceita os%{terms}
+          terms: Ao registrar-se você aceita os %{terms}
           terms_link: termos e condições de uso
           title: Registre-se
           username_is_available: Nome de usuário disponível
