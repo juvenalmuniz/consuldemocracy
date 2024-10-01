@@ -17,7 +17,7 @@ pt-BR:
       debates:
         title: "Debates"
         description: "Na seção %{link} você pode apresentar e compartilhar sua opinião com outras pessoas sobre questões de seu interesse relacionadas ao câmpus. É também um lugar para gerar ideias que através de outras seções de %{org} levam a ações concretas pela Prefeitura."
-        link: "debates de cidadãos"
+        link: "debates"
         feature: "Você pode abrir debates, comentar e avaliá-los com o <strong>concordo</strong> ou <strong>não concordo</strong>. Para isso, basta %{link}."
         feature_link: "registre-se em %{org}"
         image_alt: "Botões para classificar os debates"
@@ -25,7 +25,7 @@ pt-BR:
       proposals:
         title: "Propostas"
         description: "Na seção %{link} você pode fazer propostas para a Prefeitura realizá-los. As propostas necessitam de apoio, e se alcançam o apoio suficiente, são colocadas em votação pública. As propostas aprovadas nestas votações pelos cidadãos são aceitas pela Prefeitura e realizadas."
-        link: "propostas dos cidadãos"
+        link: "propostas"
         image_alt: "Botão para apoiar uma proposta"
         figcaption: 'Botão para "apoiar" uma proposta.'
       budgets:
