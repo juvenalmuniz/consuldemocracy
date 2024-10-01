@@ -11,13 +11,17 @@ pt-BR:
       new_comment_by: Há um novo comentário de <strong>%{commenter}</strong>
       subject: Alguém comentou sobre seu %{commentable}
       title: Novo comentário
+    config:
+      notifications_link: Notificações
+      unsubscribe_text: 'Para não receber mais estes emails, entre em %{notifications} e desmarque a opção "%{notification}".'
     email_verification:
       click_here_to_verify: este link
       instructions_2: Este email visa verificar sua conta com <b>%{document_type} %{document_number}</b>. Se isto não lhe diz respeito, não clique no link anterior e ignore este email.
       instructions: Para completar a verificação da sua conta de usuário, você deve clicar em %{verification_link}.
       subject: Confirme seu email
       thanks: Muito Obrigado.
-      title: "Confirme sua conta usando o seguinte link"
+      title: "Verifique seu email"
+      text: "Verifique sua conta pelo seguinte link."
     reply:
       hi: Oi
       new_reply_by: Há uma nova resposta de <strong>%{commenter}</strong> ao seu comentário sobre
@@ -28,10 +32,12 @@ pt-BR:
       title: "Notificações de proposta em %{org_name}"
       share: Compartilhar proposta
       comment: Comentar proposta
+      unsubscribe_text: "Caso não queira receber notificações de propostas, pode entrar em %{notifications} e desmarque a opção 'Receber resumo de notificações sobre propostas'."
       unfollow: "Reveja esta proposta e deixe de segui-la para não receber mais notificações."
     direct_message_for_receiver:
       subject: "Você recebeu uma nova mensagem privada"
       reply: Responder para %{sender}
+      unsubscribe_text: "Caso não queira receber mensagens privadas, pode entrar em %{notifications} e desmarcar a opção 'Receber emails com mensagens privadas'."
     direct_message_for_sender:
       subject: "Você recebeu uma nova mensagem privada"
       title: "Você recebeu uma nova mensagem privada"
@@ -53,6 +59,7 @@ pt-BR:
       sincerely: "Atenciosamente"
       share: "Compartilhe seu projeto"
     budget_investment_unfeasible:
+      title: "O seu projeto de gastos foi marcado como inviável"
       hi: "Caro usuário,"
       new: "Por tudo isso, nós convidamos você a elaborar um <strong>novo investimento</strong> que se ajuste às condições deste processo. Para isso, clique no link: %{url}."
       new_href: "novo projeto de investimento"
@@ -61,6 +68,7 @@ pt-BR:
       subject: "Seu projeto de investimento '%{code}' foi marcado como inviável"
     budget_investment_selected:
       subject: "Seu projeto de investimento '%{code}' foi selecionado"
+      title: "Seu projeto de gastos foi selecionado"
       hi: "Caro usuário,"
       share: "Comece a receber votos, compartilhe seu projeto de investimento em redes sociais. Compartilhar é essencial para torná-lo realidade."
       share_button: "Compartihle seu projeto de investimento"
@@ -68,6 +76,7 @@ pt-BR:
       sincerely: "Atenciosamente"
     budget_investment_unselected:
       subject: "Seu projeto de investimento '%{code}' não foi selecionado"
+      title: "Seu projeto de investimento não foi selecionado"
       hi: "Caro usuário,"
       thanks: "Obrigada novamente por participar."
       sincerely: "Atenciosamente"
