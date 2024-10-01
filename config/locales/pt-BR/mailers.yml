@@ -34,7 +34,7 @@ pt-BR:
       text: "Você enviou uma nova mensagem particular para <strong>%{receiver}</strong> com o conteúdo:"
     user_invite:
       ignore: "Se você não solicitou este convite, não se preocupe, você pode ignorar este e-mail."
-      text: "Obrigado por se inscrever para participar do %{org}! Em segundos você pode começar a participar das decisões de sua cidade, basta preencher o formulário abaixo:"
+      text: "Obrigado por se inscrever para participar do %{org}! Em segundos você pode começar a participar das decisões do seu câmpus, basta preencher o formulário abaixo:"
       thanks: "Muito Obrigado."
       title: "Bem-vindo a %{org}"
       button: Completar registro

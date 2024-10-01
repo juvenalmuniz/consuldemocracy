@@ -16,7 +16,7 @@ pt-BR:
         processes: "Processos"
       debates:
         title: "Debates"
-        description: "Na seção %{link} você pode apresentar e compartilhar sua opinião com outras pessoas sobre questões de seu interesse relacionadas à cidade. É também um lugar para gerar ideias que através de outras seções de %{org} levam a ações concretas pela Prefeitura."
+        description: "Na seção %{link} você pode apresentar e compartilhar sua opinião com outras pessoas sobre questões de seu interesse relacionadas ao câmpus. É também um lugar para gerar ideias que através de outras seções de %{org} levam a ações concretas pela Prefeitura."
         link: "debates de cidadãos"
         feature: "Você pode abrir debates, comentar e avaliá-los com o <strong>concordo</strong> ou <strong>não concordo</strong>. Para isso, basta %{link}."
         feature_link: "registre-se em %{org}"
@@ -42,7 +42,7 @@ pt-BR:
         feature_1_link: "registrar em %{org_name}"
       processes:
         title: "Processos"
-        description: "Na seção %{link}, os cidadãos participam da redação e modificação dos regulamentos que afetam a cidade e podem opinar sobre as políticas municipais em debates anteriores."
+        description: "Na seção %{link}, os cidadãos participam da redação e modificação dos regulamentos que afetam a universidade e podem opinar sobre as políticas universitárias em debates anteriores."
         link: "processos"
         feature: "Para participar dos processos, você precisa %{link} e verificar sua conta."
         feature_link: "registre-se %{org_name}"
@@ -55,7 +55,7 @@ pt-BR:
           description: "Utilize essa página para resolver Perguntas Frequentes dos usuários do site."
       other:
         title: "Outras informações de interesse"
-        how_to_use: "Use o %{org_name} em sua cidade"
+        how_to_use: "Use o %{org_name} em sua universidade"
         sdg: "Objetivos de Desenvolvimento Sustentável - Ajuda"
       how_to_use:
         text: |-

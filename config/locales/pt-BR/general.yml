@@ -165,7 +165,7 @@ pt-BR:
     site_customization/page: página
     sdg/local_target: destino local
   geozones:
-    none: Toda a cidade
+    none: Todos os câmpus
   layouts:
     dashboard:
       proposal_header:
@@ -361,7 +361,7 @@ pt-BR:
         help: Ajuda sobre propostas
       section_footer:
         title: Ajuda sobre propostas
-        description: Propostas dos cidadãos são uma oportunidade para os vizinhos e coletivos para decidir diretamente como eles querem que seja sua cidade, após conseguir apoio suficiente e sujeitar à votação dos cidadãos.
+        description: Propostas dos cidadãos são uma oportunidade para os vizinhos e coletivos para decidir diretamente como eles querem que seja seu câmpus, após conseguir apoio suficiente e sujeitar à votação dos cidadãos.
     new:
       form:
         submit_button: Criar proposta
@@ -530,7 +530,7 @@ pt-BR:
         title: Pré-visualização do pôster
         poster_title: "Não fique olhando,"
         poster_subtitle: "apoie-me! ;-)"
-        intro_text: "<strong>Estou participando de %{org}</strong> com a minha própria proposta cidadã, e conseguirei obter o apoio necessário para fazer a cidade que todos queremos apenas se você se juntar a ela."
+        intro_text: "<strong>Estou participando de %{org}</strong> com a minha própria proposta cidadã, e conseguirei obter o apoio necessário para fazer a universidade que todos queremos apenas se você se juntar a ela."
         proposal_code: "Código da proposta: %{code}"
         support: Apoiar minha proposta
         footer: "<strong>Acesse %{link} e apoie esta proposta.</strong> Precisamos ser muitos. Faça parte você também. Obrigado!"
@@ -555,7 +555,7 @@ pt-BR:
         support_button: Apoiar esta proposta
         share_in: Compartilhar em
         hi: "Olá!"
-        introduction: Estou escrevendo para comunicar que estou participando da %{org}, a plataforma em que podemos decidir a cidade que queremos. E para isso eu criei a minha própria proposta cidadã, e agora vou precisar do seu apoio! Mas não se preocupe, pois é muito simples.
+        introduction: Estou escrevendo para comunicar que estou participando da %{org}, a plataforma em que podemos decidir a universidade que queremos. E para isso eu criei a minha própria proposta cidadã, e agora vou precisar do seu apoio! Mas não se preocupe, pois é muito simples.
         support: "Você apenas precisa clicar no botão 'Apoiar esta proposta' logo abaixo para se informar sobre ela antes de apoiá-la. Somente as propostas que conseguirem o máximo de apoio serão executadas pela Prefeitura. Assim, tenho certeza que você me ajudará!"
         share: "E se você fizer o grande favor de compartilhar a minha proposta com seus amigos, familiares e contatos, vai ser ótimo!"
   polls:
@@ -569,7 +569,7 @@ pt-BR:
       title: "Votações"
       participate_button: "Participar desta votação"
       participate_button_expired: "Votação encerrada"
-      no_geozone_restricted: "Toda a cidade"
+      no_geozone_restricted: "Todos os câmpus"
       geozone_restricted: "Câmpus"
       geozone_info: "Podem participar as pessoas registradas em: "
       already_answer: "Já participou desta votação"
