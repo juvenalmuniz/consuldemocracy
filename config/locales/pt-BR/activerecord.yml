@@ -74,7 +74,7 @@ pt-BR:
         one: Cédula de votação
         other: Cédulas de votação
       proposal:
-        one: "Proposta dos cidadãos"
+        one: "Proposta do cidadão"
         other: "Propostas dos cidadãos"
       sdg/goal:
         one: "objetivo"
