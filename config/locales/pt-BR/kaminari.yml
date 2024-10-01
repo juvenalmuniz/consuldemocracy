@@ -9,7 +9,7 @@ pt-BR:
         display_entries: Exibindo <strong>%{first}&nbsp;-&nbsp;%{last}</strong> de <strong>%{total} %{entry_name}</strong>
       one_page:
         display_entries:
-          zero: "%{entry_name} não pode ser encontrado"
+          zero: "%{entry_name} não puderam ser encontradas"
           one: Há <strong>1 %{entry_name}</strong>
           other: Há <strong>%{count} %{entry_name}</strong>
   views:
