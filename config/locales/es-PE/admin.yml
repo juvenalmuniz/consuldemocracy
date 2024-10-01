@@ -66,7 +66,7 @@ es-PE:
         table_name: Nombre
         table_phase: Fase
       create:
-        notice: '¡Nueva campaña de presupuestos participativos creada con éxito!'
+        notice: "¡Nueva campaña de presupuestos participativos creada con éxito!"
       update:
         notice: Campaña de presupuestos participativos actualizada
       edit:
@@ -226,7 +226,7 @@ es-PE:
         description: Bienvenido al panel de administración de %{org}.
       actions:
         index:
-          active: 'Si'
+          active: "Si"
           action_title: Título
           action_type: Tipo
           action_active: Activos
@@ -465,7 +465,7 @@ es-PE:
       title_moderated_content: Contenido moderado
       title_profiles: Perfiles
       title_settings: Configuración global
-      legislation: Legislación colaborativa
+      legislation: Processos legislativos
       users: Usuarios
       debates: "Discusiones"
       comments: "Comentarios"
