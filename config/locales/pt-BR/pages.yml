@@ -2,7 +2,7 @@ pt-BR:
   pages:
     conditions:
       title: Termos e condições de uso
-      subtitle: AVISO LEGAL SOBRE AS CONDIÇÕES DE USO, PRIVACIDADE E PROTEÇÃO DE DADOS PESSOAIS DO PORTAL DO GOVERNO ABERTO
+      subtitle: AVISO LEGAL SOBRE AS CONDIÇÕES DE USO, PRIVACIDADE E PROTEÇÃO DE DADOS PESSOAIS
       description: Página de informações sobre as condições de uso, privacidade e proteção de dados pessoais.
     help:
       title: "%{org} é uma plataforma de participação cidadã"
@@ -88,23 +88,17 @@ pt-BR:
           key_header: Chave
           page_header: Página
           rows:
-            - 
-              key_column: 0
+            - key_column: 0
               page_column: Início
-            - 
-              key_column: 1
+            - key_column: 1
               page_column: Debates
-            - 
-              key_column: 2
+            - key_column: 2
               page_column: Propostas
-            - 
-              key_column: 3
+            - key_column: 3
               page_column: Votos
-            - 
-              key_column: 4
+            - key_column: 4
               page_column: Orçamentos participativos
-            - 
-              key_column: 5
+            - key_column: 5
               page_column: Processos legislativos
         browser_table:
           description: "Dependendo do sistema operacional e do navegador usado, a combinação de teclas será a seguinte:"
@@ -112,20 +106,15 @@ pt-BR:
           browser_header: Navegador
           key_header: Combinação de teclas
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               key_column: ALT + atalho, em seguida, ENTER
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               key_column: ALT + CAPS + atalho
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               key_column: ALT + atalho (CTRL + ALT + atalhos para MAC)
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               key_column: ALT + atalho (CMD + atalho para MAC)
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               key_column: CAPS + ESC + atalho
       textsize:
         title: Tamanho do texto
@@ -134,29 +123,22 @@ pt-BR:
           browser_header: Navegador
           action_header: Ação a ser tomada
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               action_column: Exibir > Tamanho do texto
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               action_column: Exibir > Tamanho
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               action_column: Configurações (ícone) > Opções > Avançado > Conteúdo Web > Tamanho do texto
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               action_column: Exibir > Aumentar Zoom / Diminuir Zoom
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               action_column: Exibir > escala
         browser_shortcuts_table:
           description: "Outra maneira de modificar o tamanho do texto é utilizar os atalhos de teclado definidos em navegadores, em especial a combinação de teclas:"
           rows:
-            - 
-              shortcut_column: CTRL e + (CMD e + no MAC)
+            - shortcut_column: CTRL e + (CMD e + no MAC)
               description_column: Aumenta o tamanho do texto
-            - 
-              shortcut_column: CTRL e - (CMD e - no MAC)
+            - shortcut_column: CTRL e - (CMD e - no MAC)
               description_column: Diminui o tamanho do texto
       compatibility:
         title: Compatibilidade com padrões e design visual

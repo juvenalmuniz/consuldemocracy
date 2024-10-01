@@ -72,7 +72,7 @@ pt-BR:
         tag_category_label: "Categorias"
         tags_instructions: "Marque esta proposta. Você pode escolher entre as categorias propostas ou adicionar a sua própria"
         tags_label: Marcação
-        tags_placeholder: "Entre com as marcações que você deseja usar, separadas por vírgulas ('s\")"
+        tags_placeholder: 'Entre com as marcações que você deseja usar, separadas por vírgulas (''s")'
         map_location: "Localização no mapa"
         map_location_instructions: "Navegue no mapa até o local e fixe o marcador."
       index:
@@ -149,8 +149,8 @@ pt-BR:
       votes:
         already_supported: "Você já apoiou esta proposta de investimento. Compartilhe!"
         confirm_group:
-          one: "Você pode somente apoiar investimentos no distrito de %{count}. Se você continuar, não poderá alterar a eleição de seu distrito. Tem certeza?"
-          other: "Você pode somente apoiar investimentos no distrito de %{count}. Se você continuar, não poderá alterar a eleição de seu distrito. Tem certeza?"
+          one: "Você pode somente apoiar investimentos no campus de %{count}. Se você continuar, não poderá alterar a eleição do seu campus. Tem certeza?"
+          other: "Você pode somente apoiar investimentos no campus de %{count}. Se você continuar, não poderá alterar a eleição do seu campus. Tem certeza?"
         support: "Apoiar"
     investments_list:
       investment:
@@ -162,7 +162,7 @@ pt-BR:
       link: Resultados
       page_title: "%{budget} - Resultados"
       heading: "Resultados do orçamento participativo"
-      heading_selection_title: "Por distrito"
+      heading_selection_title: "Por campus"
       ballot_lines_count: Votos
       hide_discarded_link: Esconder descartados
       show_all_link: Mostrar todos
@@ -179,7 +179,7 @@ pt-BR:
       link: "Marcos"
       page_title: "%{budget} - Andamento do/s projeto/s"
       heading: "Andamento do orçamento participativo"
-      heading_selection_title: "Por distrito"
+      heading_selection_title: "Por campus"
       no_winner_investments: "Não há projetos de investimentos ganhadores neste estado"
       filters:
         status:

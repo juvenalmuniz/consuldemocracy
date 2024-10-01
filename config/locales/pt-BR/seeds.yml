@@ -32,10 +32,10 @@ pt-BR:
       environment: Meio Ambiente
     budgets:
       budget: Orçamento participativo
-      currency: '€'
+      currency: "R$"
       groups:
-        all_city: Toda a cidade
-        districts: Distritos
+        all_city: Todos os câmpus
+        districts: Câmpus
       statuses:
         studying_project: Esudando o projeto
         bidding: Licitação

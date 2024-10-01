@@ -65,9 +65,9 @@ pt-BR:
       user_invites: Enviar convites
       select_user: Selecione usuário
     print:
-      proposals_info: Crie sua proposta em http://url.consul
+      proposals_info: Crie sua proposta em https://consuldemocracy-h.ufms.br
       proposals_title: "Propostas:"
-      budget_investments_info: Participar em http://url.consul
+      budget_investments_info: Participar em https://consuldemocracy-h.ufms.br
     print_info: Imprimir esta informação
     proposals:
       alert:
