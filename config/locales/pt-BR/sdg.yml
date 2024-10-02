@@ -7,19 +7,26 @@ pt-BR:
         description: "Acabem com a pobreza em todas as suas formas, em todos os lugares."
         targets:
           target_1_1:
-            long_title: "Até 2030, erradicar a pobreza extrema de todas as pessoas em todos os lugares, medida atualmente em pessoas vivendo com menos de US$ 1,25 por dia"
+            long_title: "Até 2030, erradicar a pobreza extrema para todas as pessoas em todos os lugares, atualmente medida como pessoas vivendo com menos de US$ 1,25 por dia"
+            short_title: "Erradicar a Pobreza Extrema"
           target_1_2:
-            long_title: "Até 2030, reduzir em pelo menos a metade de homens, mulheres e crianças de todas as idades vivendo em pobreza em todas as suas dimensões de acordo com as determinações nacionais"
+            long_title: "Até 2030, reduzir pelo menos pela metade a proporção de homens, mulheres e crianças de todas as idades vivendo em pobreza em todas as suas dimensões, de acordo com definições nacionais"
+            short_title: "Reduzir a Pobreza em Pelo Menos 50%"
           target_1_3:
-            long_title: "Implementar sistemas de proteção social apropriado em âmbito nacional para todos, incluindo os mais básicos, e até 2030 atingir cobertura substancial para os pobres e vulneráveis"
+            long_title: "Implementar sistemas e medidas de proteção social adequadas a nível nacional para todos, incluindo pisos, e até 2030 alcançar uma cobertura substancial dos pobres e vulneráveis"
+            short_title: "Implementar Sistemas de Proteção Social"
           target_1_4:
-            long_title: "Até 2030, assegurara que todos os homens e mulheres, em particular os pobres e vulneráveis, tenham direitos iguais a recursos econômicos, bem como acesso a serviços básicos, propriedade e controle sobre terras e outras formas de imóveis, herança, recursos naturais, novas tecnologias e serviços financeiros apropriados, incluindo microcrédito"
+            long_title: "Até 2030, garantir que todos os homens e mulheres, em particular os pobres e vulneráveis, tenham direitos iguais a recursos econômicos, bem como acesso a serviços básicos, propriedade e controle sobre terras e outras formas de propriedade, herança, recursos naturais, novas tecnologias apropriadas e serviços financeiros, incluindo microfinanças"
+            short_title: "Direitos Iguais à Propriedade, Serviços Básicos, Tecnologia e Recursos Econômicos"
           target_1_5:
-            long_title: "Até 2030, construir a resiliência dos pobres e daqueles em situações vulneráveis, e reduzir a exposição e a vulnerabilidade deles a eventos extremos relacionados ao clima e outros desastres e incidentes sociais e ambientais"
+            long_title: "Até 2030, construir a resiliência dos pobres e dos vulneráveis e reduzir sua exposição e vulnerabilidade a eventos climáticos extremos e outros choques e desastres econômicos, sociais e ambientais"
+            short_title: "Construir Resiliência a Desastres Ambientais, Econômicos e Sociais"
           target_1_A:
-            long_title: "Assegurar significante mobilização de recursos a partir de uma variedade de fontes, inclusive através de cooperação de desenvolvimento avançada, a fim de oferecer meios adequados e previsíveis para países em desenvolvimento, em particular aqueles menos desenvolvidos, para implementar programas e políticas para acabar com a pobreza em todas as suas dimensões"
+            long_title: "Garantir a mobilização significativa de recursos de diversas fontes, incluindo por meio do fortalecimento da cooperação para o desenvolvimento, a fim de fornecer meios adequados e previsíveis para os países em desenvolvimento, em particular os menos desenvolvidos, implementarem programas e políticas para acabar com a pobreza em todas as suas dimensões"
+            short_title: "Mobilizar Recursos para Implementar Políticas para Acabar com a Pobreza"
           target_1_B:
-            long_title: "Criar estruturas de políticas seguras nos âmbitos nacional, regional e internacional, baseadas em estratégias de desenvolvimento a favor dos pobres e sensíveis às questões de gênero, para apoiar investimento acelerado em ações de erradicação da pobreza"
+            long_title: "Criar estruturas políticas sólidas nos níveis nacional, regional e internacional, baseadas em estratégias de desenvolvimento pró-pobres e sensíveis ao gênero, para apoiar investimentos acelerados em ações de erradicação da pobreza"
+            short_title: "Criar estruturas políticas pró-pobres e sensíveis ao gênero"
       goal_2:
         title: "Fome zero"
         title_in_two_lines: "Fome zero"
@@ -31,63 +38,558 @@ pt-BR:
             long_title: "Até 2030, acabar com todas as formas de subnutrição, incluindo atingir, até 2025, as metas acordadas internacionalmente sobre baixa estatura e baixo peso em crianças abaixo de 5 anos de idade, e tratar das necessidades nutricionais de garotas adolescentes, grávidas e mulheres lactantes e idosos."
           target_2_3:
             long_title: "Até 2030, duplicar a produtividade de agricultura e receitas de pequenos produtores de comida, em particular mulheres, povos indígenas, \n famílias fazendeiras, pastores e pescadores, incluindo acesso seguro e igualitário à terra, outros recursos e meios produtivos, conhecimento, serviços financeiros, mercados e oportunidades para mais valia e emprego fora das fazendas."
+          target_2_4:
+            long_title: "Até 2030, garantir sistemas de produção de alimentos sustentáveis e implementar práticas agrícolas resilientes que aumentem a produtividade e a produção, que ajudem a manter os ecossistemas, que fortaleçam a capacidade de adaptação às mudanças climáticas, eventos climáticos extremos, secas, inundações e outros desastres e que melhorem progressivamente a qualidade das terras e do solo."
+            short_title: "Produção de Alimentos Sustentável e Práticas Agrícolas Resilientes"
+          target_2_5:
+            long_title: "Até 2020, manter a diversidade genética de sementes, plantas cultivadas e animais domesticados e suas espécies selvagens relacionadas, incluindo por meio de bancos de sementes e plantas bem gerenciados e diversificados nos níveis nacional, regional e internacional, e promover o acesso e a distribuição justa e equitativa dos benefícios decorrentes da utilização de recursos genéticos e do conhecimento tradicional associado, conforme acordado internacionalmente."
+            short_title: "Manter a Diversidade Genética na Produção de Alimentos"
+          target_2_A:
+            long_title: "Aumentar o investimento, incluindo por meio de cooperação internacional aprimorada, em infraestrutura rural, pesquisa e extensão agrícola, desenvolvimento de tecnologia e bancos de genes de plantas e animais, a fim de aumentar a capacidade produtiva agrícola nos países em desenvolvimento, em particular os países menos desenvolvidos."
+            short_title: "Investir em Infraestrutura Rural, Pesquisa Agrícola, Tecnologia e Bancos de Genes"
+          target_2_B:
+            long_title: "Corrigir e prevenir restrições e distorções comerciais nos mercados agrícolas mundiais, incluindo por meio da eliminação paralela de todas as formas de subsídios à exportação agrícola e todas as medidas de exportação com efeito equivalente, de acordo com o mandato da Rodada de Desenvolvimento de Doha."
+            short_title: "Prevenir Restrições Comerciais, Distorções de Mercado e Subsídios à Exportação Agrícola"
+          target_2_C:
+            long_title: "Adotar medidas para garantir o bom funcionamento dos mercados de commodities alimentares e seus derivados e facilitar o acesso oportuno às informações de mercado, incluindo sobre reservas alimentares, a fim de ajudar a limitar a volatilidade extrema dos preços dos alimentos."
+            short_title: "Garantir Mercados Estáveis de Commodities Alimentares e Acesso Oportuno à Informação"
       goal_3:
         title: "Boa saúde e bem-estar"
         title_in_two_lines: "Boa saúde e bem-estar"
         description: "Garantir vidas saudáveis e promover o bem-estar para todos em todas as idades."
+        targets:
+          target_3_1:
+            long_title: "Até 2030, reduzir a taxa de mortalidade materna global para menos de 70 por 100.000 nascidos vivos."
+            short_title: "Reduzir a Mortalidade Materna"
+          target_3_2:
+            long_title: "Até 2030, acabar com as mortes evitáveis de recém-nascidos e crianças menores de 5 anos de idade, com todos os países visando reduzir a mortalidade neonatal para pelo menos 12 por 1.000 nascidos vivos e a mortalidade infantil para pelo menos 25 por 1.000 nascidos vivos."
+            short_title: "Acabar com Todas as Mortes Evitáveis com Menos de 5 Anos de Idade"
+          target_3_3:
+            long_title: "Até 2030, acabar com as epidemias de AIDS, tuberculose, malária e doenças tropicais negligenciadas e combater hepatite, doenças transmitidas pela água e outras doenças transmissíveis."
+            short_title: "Combater Doenças Transmissíveis"
+          target_3_4:
+            long_title: "Até 2030, reduzir em um terço a mortalidade prematura por doenças não transmissíveis por meio de prevenção e tratamento e promover a saúde mental e o bem-estar."
+            short_title: "Reduzir a Mortalidade por Doenças Não Transmissíveis e Promover a Saúde Mental"
+          target_3_5:
+            long_title: "Fortalecer a prevenção e o tratamento do abuso de substâncias, incluindo o abuso de drogas narcóticas e o uso nocivo de álcool."
+            short_title: "Prevenir e Tratar o Abuso de Substâncias"
+          target_3_6:
+            long_title: "Até 2020, reduzir pela metade o número de mortes e ferimentos em todo o mundo causados por acidentes de trânsito."
+            short_title: "Reduzir Ferimentos e Mortes no Trânsito"
+          target_3_7:
+            long_title: "Até 2030, garantir o acesso universal a serviços de saúde sexual e reprodutiva, incluindo planejamento familiar, informação e educação, e a integração da saúde reprodutiva em estratégias e programas nacionais."
+            short_title: "Acesso Universal a Cuidados Sexuais e Reprodutivos, Planejamento Familiar e Educação"
+          target_3_8:
+            long_title: "Alcançar cobertura universal de saúde, incluindo proteção financeira, acesso a serviços de saúde essenciais de qualidade e acesso a medicamentos e vacinas essenciais seguros, eficazes, de qualidade e acessíveis para todos."
+            short_title: "Alcançar Cobertura Universal de Saúde"
+          target_3_9:
+            long_title: "Até 2030, reduzir substancialmente o número de mortes e doenças causadas por produtos químicos perigosos e poluição e contaminação do ar, água e solo."
+            short_title: "Reduzir Doenças e Mortes por Produtos Químicos Perigosos e Poluição"
+          target_3_A:
+            long_title: "Fortalecer a implementação da Convenção-Quadro da Organização Mundial da Saúde para o Controle do Tabaco em todos os países, conforme apropriado."
+            short_title: "Implementar a Convenção-Quadro da OMS para o Controle do Tabaco"
+          target_3_B:
+            long_title: "Apoiar a pesquisa e o desenvolvimento de vacinas e medicamentos para as doenças transmissíveis e não transmissíveis que afetam principalmente os países em desenvolvimento, fornecer acesso a medicamentos e vacinas essenciais acessíveis, de acordo com a Declaração de Doha sobre o Acordo sobre Aspectos dos Direitos de Propriedade Intelectual Relacionados ao Comércio e Saúde Pública, que afirma o direito dos países em desenvolvimento de utilizar plenamente as disposições do Acordo sobre Aspectos dos Direitos de Propriedade Intelectual Relacionados ao Comércio relativas a flexibilidades para proteger a saúde pública e, em particular, fornecer acesso a medicamentos para todos."
+            short_title: "Apoiar Pesquisa, Desenvolvimento e Acesso Universal a Vacinas e Medicamentos Acessíveis"
+          target_3_C:
+            long_title: "Aumentar substancialmente o financiamento da saúde e a contratação, desenvolvimento, treinamento e retenção da força de trabalho de saúde nos países em desenvolvimento, especialmente nos países menos desenvolvidos e nos pequenos Estados insulares em desenvolvimento."
+            short_title: "Aumentar o Financiamento da Saúde e Apoiar a Força de Trabalho de Saúde nos Países em Desenvolvimento"
+          target_3_D:
+            long_title: "Fortalecer a capacidade de todos os países, em particular os países em desenvolvimento, para alerta precoce, redução de riscos e gestão de riscos de saúde nacionais e globais."
+            short_title: "Melhorar os Sistemas de Alerta Precoce para Riscos de Saúde Global"
       goal_4:
         title: "Educação de qualidade"
         title_in_two_lines: "Educação de qualidade"
         description: "Educação de qualidade."
+        targets:
+          target_4_1:
+            long_title: "Até 2030, garantir que todas as meninas e meninos concluam o ensino primário e secundário gratuito, equitativo e de qualidade, levando a resultados de aprendizagem relevantes e eficazes para o Objetivo 4."
+            short_title: "Educação Primária e Secundária Gratuita"
+          target_4_2:
+            long_title: "Até 2030, garantir que todas as meninas e meninos tenham acesso a desenvolvimento, cuidado e educação pré-escolar de qualidade, para que estejam preparados para o ensino primário."
+            short_title: "Acesso Igualitário a Educação Pré-Primária de Qualidade"
+          target_4_3:
+            long_title: "Até 2030, garantir igualdade de acesso para todas as mulheres e homens a educação técnica, profissional e terciária acessível e de qualidade, incluindo universidade."
+            short_title: "Acesso Igualitário a Educação Técnica, Profissional e Superior Acessível"
+          target_4_4:
+            long_title: "Até 2030, aumentar substancialmente o número de jovens e adultos que possuem habilidades relevantes, incluindo técnicas e profissionais, para emprego, empregos decentes e empreendedorismo."
+            short_title: "Aumentar o Número de Pessoas com Habilidades Relevantes para o Sucesso Financeiro"
+          target_4_5:
+            long_title: "Até 2030, eliminar as disparidades de gênero na educação e garantir igualdade de acesso a todos os níveis de educação e formação profissional para os vulneráveis, incluindo pessoas com deficiência, povos indígenas e crianças em situação vulnerável."
+            short_title: "Eliminar Toda Discriminação na Educação"
+          target_4_6:
+            long_title: "Até 2030, garantir que todos os jovens e uma proporção substancial de adultos, homens e mulheres, alcancem alfabetização e numeramento."
+            short_title: "Alfabetização e Numeramento Universal"
+          target_4_7:
+            long_title: "Até 2030, garantir que todos os alunos adquiram os conhecimentos e habilidades necessários para promover o desenvolvimento sustentável, incluindo, entre outros, por meio da educação para o desenvolvimento sustentável e estilos de vida sustentáveis, direitos humanos, igualdade de gênero, promoção de uma cultura de paz e não-violência, cidadania global e apreço pela diversidade cultural e pela contribuição da cultura para o desenvolvimento sustentável."
+            short_title: "Educação para o Desenvolvimento Sustentável e Cidadania Global"
+          target_4_A:
+            long_title: "Construir e modernizar instalações educacionais que sejam sensíveis a crianças, deficiências e gênero e proporcionar ambientes de aprendizagem seguros, não violentos, inclusivos e eficazes para todos."
+            short_title: "Construir e Modernizar Escolas Inclusivas e Seguras"
+          target_4_B:
+            long_title: "Até 2020, expandir substancialmente em todo o mundo o número de bolsas de estudo disponíveis para países em desenvolvimento, em particular os países menos desenvolvidos, os pequenos Estados insulares em desenvolvimento e os países africanos, para matricular-se no ensino superior, incluindo formação profissional e tecnologia da informação e comunicação, programas técnicos, de engenharia e científicos, em países desenvolvidos e outros países em desenvolvimento."
+            short_title: "Ampliar Bolsas de Estudo de Ensino Superior para Países em Desenvolvimento"
+          target_4_C:
+            long_title: "Até 2030, aumentar substancialmente a oferta de professores qualificados, incluindo por meio de cooperação internacional para formação de professores em países em desenvolvimento, especialmente os países menos desenvolvidos e os pequenos Estados insulares em desenvolvimento."
+            short_title: "Aumentar a Oferta de Professores Qualificados nos Países em Desenvolvimento"
       goal_5:
         title: "Igualdade de gênero"
         title_in_two_lines: "Igualdade de gênero"
         description: "Atingir igualdade de gênero e empoderar todas as mulheres e garotas."
         targets:
           target_5_1:
-            long_title: "Acabar com todas as formas de discriminação contra todas as mulheres e garotas em todos os lugares."
+            long_title: "Acabar com todas as formas de discriminação contra todas as mulheres e meninas em todos os lugares."
+            short_title: "Acabar com a Discriminação Contra Mulheres e Meninas"
+          target_5_2:
+            long_title: "Eliminar todas as formas de violência contra todas as mulheres e meninas nas esferas pública e privada, incluindo tráfico e exploração sexual e outros tipos."
+            short_title: "Acabar com Toda a Violência Contra e Exploração de Mulheres e Meninas"
+          target_5_3:
+            long_title: "Eliminar todas as práticas prejudiciais, como casamento infantil, precoce e forçado e mutilação genital feminina."
+            short_title: "Eliminar Casamentos Forçados e Mutilação Genital"
+          target_5_4:
+            long_title: "Reconhecer e valorizar o trabalho doméstico e de cuidados não remunerado por meio da prestação de serviços públicos, infraestrutura e políticas de proteção social e a promoção da responsabilidade compartilhada dentro da família, conforme apropriado nacionalmente."
+            short_title: "Valorizar o Trabalho Doméstico Não Remunerado e Promover Responsabilidades Domésticas Compartilhadas"
+          target_5_5:
+            long_title: "Garantir a plena e efetiva participação das mulheres e oportunidades iguais de liderança em todos os níveis de tomada de decisões na vida política, econômica e pública."
+            short_title: "Garantir Participação Plena na Liderança e Tomada de Decisões"
+          target_5_6:
+            long_title: "Garantir acesso universal à saúde sexual e reprodutiva e direitos reprodutivos, conforme acordado de acordo com o Programa de Ação da Conferência Internacional sobre População e Desenvolvimento e a Plataforma de Ação de Pequim e os documentos resultantes de suas conferências de revisão."
+            short_title: "Acesso Universal à Saúde e Direitos Reprodutivos"
+          target_5_A:
+            long_title: "Realizar reformas para dar às mulheres direitos iguais aos recursos econômicos, bem como acesso à propriedade e controle sobre terras e outras formas de propriedade, serviços financeiros, herança e recursos naturais, de acordo com as leis nacionais."
+            short_title: "Direitos Iguais a Recursos Econômicos, Propriedade e Serviços Financeiros"
+          target_5_B:
+            long_title: "Melhorar o uso de tecnologia habilitadora, em particular a tecnologia da informação e comunicação, para promover o empoderamento das mulheres."
+            short_title: "Promover o Empoderamento das Mulheres por meio da Tecnologia"
+          target_5_C:
+            long_title: "Adotar e fortalecer políticas sólidas e legislação aplicável para a promoção da igualdade de gênero e o empoderamento de todas as mulheres e meninas em todos os níveis."
+            short_title: "Adotar e Fortalecer Políticas e Legislação Aplicável para a Igualdade de Gênero"
       goal_6:
         title: "Água tratada e saneamento"
         title_in_two_lines: "Água tratada e saneamento"
         description: "Garantir acesso a água e saneamento para todos."
+        targets:
+          target_6_1:
+            long_title: "Até 2030, alcançar o acesso universal e equitativo a água potável segura e acessível para todos."
+            short_title: "Água Potável Segura e Acessível"
+          target_6_2:
+            long_title: "Até 2030, alcançar o acesso a saneamento e higiene adequados e equitativos para todos e acabar com a defecação a céu aberto, dando especial atenção às necessidades das mulheres e meninas e daqueles em situação vulnerável."
+            short_title: "Acabar com a Defecação a Céu Aberto e Fornecer Acesso a Saneamento e Higiene"
+          target_6_3:
+            long_title: "Até 2030, melhorar a qualidade da água, reduzindo a poluição, eliminando o despejo e minimizando a liberação de produtos químicos e materiais perigosos, reduzindo pela metade a proporção de águas residuais não tratadas e aumentando substancialmente a reciclagem e a reutilização segura em todo o mundo."
+            short_title: "Melhorar a Qualidade da Água, Tratamento de Águas Residuais e Reutilização Segura"
+          target_6_4:
+            long_title: "Até 2030, aumentar substancialmente a eficiência do uso da água em todos os setores e garantir retiradas e fornecimento sustentáveis de água doce para enfrentar a escassez de água e reduzir substancialmente o número de pessoas sofrendo com a escassez de água."
+            short_title: "Aumentar a Eficiência do Uso da Água e Garantir Fornecimento de Água Doce"
+          target_6_5:
+            long_title: "Até 2030, implementar a gestão integrada dos recursos hídricos em todos os níveis, inclusive por meio de cooperação transfronteiriça, conforme apropriado."
+            short_title: "Implementar Gestão Integrada dos Recursos Hídricos"
+          target_6_6:
+            long_title: "Até 2020, proteger e restaurar ecossistemas relacionados à água, incluindo montanhas, florestas, zonas úmidas, rios, aquíferos e lagos."
+            short_title: "Proteger e Restaurar Ecossistemas Relacionados à Água"
+          target_6_A:
+            long_title: "Até 2030, expandir a cooperação internacional e o apoio à construção de capacidades para países em desenvolvimento em atividades e programas relacionados à água e saneamento, incluindo captação de água, dessalinização, eficiência de água, tratamento de águas residuais, tecnologias de reciclagem e reutilização."
+            short_title: "Ampliar o Apoio a Água e Saneamento para Países em Desenvolvimento"
+          target_6_B:
+            long_title: "Apoiar e fortalecer a participação das comunidades locais na melhoria da gestão da água e do saneamento."
+            short_title: "Apoiar o Engajamento Local na Gestão de Água e Saneamento"
       goal_7:
         title: "Energia limpa e acessível"
         description: "Garantir acesso a energia barata, confiável, sustentável e moderna."
+        targets:
+          target_7_1:
+            long_title: "Até 2030, garantir acesso universal a serviços de energia modernos, confiáveis e acessíveis."
+            short_title: "Acesso Universal a Energia Moderna"
+          target_7_2:
+            long_title: "Até 2030, aumentar substancialmente a participação das energias renováveis na matriz energética global."
+            short_title: "Aumentar a Porcentagem Global de Energia Renovável"
+          target_7_3:
+            long_title: "Até 2030, dobrar a taxa global de melhoria na eficiência energética."
+            short_title: "Dobrar a Melhora na Eficiência Energética"
+          target_7_A:
+            long_title: "Até 2030, aprimorar a cooperação internacional para facilitar o acesso à pesquisa e tecnologia de energia limpa, incluindo energias renováveis, eficiência energética e tecnologia avançada e mais limpa de combustíveis fósseis, e promover investimentos em infraestrutura energética e tecnologia de energia limpa."
+            short_title: "Promover Acesso a Pesquisa, Tecnologia e Investimentos em Energia Limpa"
+          target_7_B:
+            long_title: "Até 2030, expandir a infraestrutura e modernizar a tecnologia para fornecer serviços de energia moderna e sustentável para todos nos países em desenvolvimento, em particular os países menos desenvolvidos, os pequenos Estados insulares em desenvolvimento e os países em desenvolvimento sem litoral, de acordo com seus respectivos programas de apoio."
+            short_title: "Expandir e Modernizar Serviços de Energia para Países em Desenvolvimento"
       goal_8:
         title: "Trabalho decente e crescimento econômico"
         description: "Promover crescimento econômico e sustentável, emprego e trabalho decente para todos."
+        targets:
+          target_8_1:
+            long_title: "Sustentar o crescimento econômico per capita de acordo com as circunstâncias nacionais e, em particular, pelo menos 7% de crescimento do produto interno bruto anual nos países menos desenvolvidos."
+            short_title: "Crescimento Econômico Sustentável"
+          target_8_2:
+            long_title: "Alcançar níveis mais elevados de produtividade econômica por meio da diversificação, modernização tecnológica e inovação, incluindo o foco em setores de alto valor agregado e intensivos em mão de obra."
+            short_title: "Diversificar, Inovar e Modernizar para a Produtividade Econômica"
+          target_8_3:
+            long_title: "Promover políticas orientadas para o desenvolvimento que apoiem atividades produtivas, criação de empregos decentes, empreendedorismo, criatividade e inovação e incentivem a formalização e o crescimento de micro, pequenas e médias empresas, incluindo por meio do acesso a serviços financeiros."
+            short_title: "Promover Políticas para Apoiar a Criação de Empregos e Empresas Crescentes"
+          target_8_4:
+            long_title: "Melhorar progressivamente, até 2030, a eficiência global dos recursos no consumo e na produção e esforçar-se para desacoplar o crescimento econômico da degradação ambiental, de acordo com o quadro de programas de 10 anos sobre consumo e produção sustentáveis, com os países desenvolvidos assumindo a liderança."
+            short_title: "Melhorar a Eficiência dos Recursos no Consumo e na Produção"
+          target_8_5:
+            long_title: "Até 2030, alcançar o pleno emprego produtivo e trabalho decente para todas as mulheres e homens, incluindo jovens e pessoas com deficiência, e igualdade salarial para trabalho de igual valor."
+            short_title: "Emprego Pleno e Trabalho Decente com Salário Igual"
+          target_8_6:
+            long_title: "Até 2020, reduzir substancialmente a proporção de jovens não empregados, nem estudando, nem treinando."
+            short_title: "Promover Emprego, Educação e Formação para Jovens"
+          target_8_7:
+            long_title: "Tomar medidas imediatas e eficazes para erradicar o trabalho forçado, acabar com a escravidão moderna e o tráfico humano e garantir a proibição e eliminação das piores formas de trabalho infantil, incluindo o recrutamento e o uso de crianças soldados, e até 2025 acabar com o trabalho infantil em todas as suas formas."
+            short_title: "Acabar com a Escravidão Moderna, o Tráfico e o Trabalho Infantil"
+          target_8_8:
+            long_title: "Proteger os direitos trabalhistas e promover ambientes de trabalho seguros e saudáveis para todos os trabalhadores, incluindo trabalhadores migrantes, em particular mulheres migrantes, e aqueles em emprego precário."
+            short_title: "Proteger os Direitos Trabalhistas e Promover Ambientes de Trabalho Seguros"
+          target_8_9:
+            long_title: "Até 2030, elaborar e implementar políticas para promover o turismo sustentável que crie empregos e promova a cultura e os produtos locais"
+            short_title: "Promover Turismo Benefício e Sustentável"
+          target_8_10:
+            long_title: "Fortalecer a capacidade das instituições financeiras domésticas para incentivar e expandir o acesso a serviços bancários, seguros e financeiros para todos."
+            short_title: "Acesso Universal a Serviços Bancários, Seguros e Financeiros"
+          target_8_A:
+            long_title: "Aumentar o apoio à ajuda para o comércio para os países em desenvolvimento, em particular os países menos desenvolvidos, incluindo por meio do Quadro Integrado Aprimorado de Assistência Técnica Relacionada ao Comércio para os Países Menos Desenvolvidos."
+            short_title: "Aumentar o Apoio à Ajuda para o Comércio"
+          target_8_B:
+            long_title: "Até 2020, desenvolver e operacionalizar uma estratégia global para o emprego de jovens e implementar o Pacto Global de Empregos da Organização Internacional do Trabalho."
+            short_title: "Desenvolver uma Estratégia Global de Emprego Juvenil"
       goal_9:
         title: "Indústria, inovação e infraestrutura"
         description: "Construir infraestrutura resiliente, promover industrialização sustentável e fomentar inovação."
+        targets:
+          target_9_1:
+            long_title: "Desenvolver infraestruturas de qualidade, confiáveis, sustentáveis e resilientes, incluindo infraestruturas regionais e transfronteiriças, para apoiar o desenvolvimento econômico e o bem-estar humano, com foco no acesso acessível e equitativo para todos."
+            short_title: "Desenvolver Infraestruturas Sustentáveis, Resilientes e Inclusivas"
+          target_9_2:
+            long_title: "Promover a industrialização inclusiva e sustentável e, até 2030, aumentar significativamente a participação da indústria no emprego e no produto interno bruto, de acordo com as circunstâncias nacionais, e dobrar sua participação nos países menos desenvolvidos."
+            short_title: "Promover a Industrialização Inclusiva e Sustentável"
+          target_9_3:
+            long_title: "Aumentar o acesso das pequenas empresas industriais e outras empresas, em particular nos países em desenvolvimento, a serviços financeiros, incluindo crédito acessível, e sua integração em cadeias de valor e mercados."
+            short_title: "Aumentar o Acesso a Serviços Financeiros e Mercados"
+          target_9_4:
+            long_title: "Até 2030, modernizar a infraestrutura e modernizar as indústrias para torná-las sustentáveis, com maior eficiência no uso de recursos e maior adoção de tecnologias industriais limpas e ambientalmente sólidas, com todos os países tomando medidas de acordo com suas respectivas capacidades."
+            short_title: "Modernizar Todas as Indústrias e Infraestruturas para a Sustentabilidade"
+          target_9_5:
+            long_title: "Aprimorar a pesquisa científica, modernizar as capacidades tecnológicas dos setores industriais em todos os países, em particular nos países em desenvolvimento, incluindo, até 2030, incentivar a inovação e aumentar substancialmente o número de pesquisadores e desenvolvedores por 1 milhão de pessoas e gastos públicos e privados em pesquisa e desenvolvimento."
+            short_title: "Aprimorar a Pesquisa e Modernizar as Tecnologias Industriais"
+          target_9_A:
+            long_title: "Facilitar o desenvolvimento de infraestruturas sustentáveis e resilientes em países em desenvolvimento por meio de maior apoio financeiro, tecnológico e técnico a países africanos, países menos desenvolvidos, países em desenvolvimento sem litoral e pequenos Estados insulares em desenvolvimento."
+            short_title: "Facilitar o Desenvolvimento de Infraestrutura Sustentável para Países em Desenvolvimento"
+          target_9_B:
+            long_title: "Apoiar o desenvolvimento tecnológico, a pesquisa e a inovação domésticas nos países em desenvolvimento, incluindo garantindo um ambiente político favorável para, entre outras coisas, diversificação industrial e valor agregado a commodities."
+            short_title: "Apoiar o Desenvolvimento Tecnológico e a Diversificação Industrial Domésticos"
+          target_9_C:
+            long_title: "Aumentar significativamente o acesso à tecnologia da informação e comunicação e esforçar-se para fornecer acesso universal e acessível à Internet nos países menos desenvolvidos até 2020."
+            short_title: "Acesso Universal à Tecnologia da Informação e Comunicação"
       goal_10:
         title: "Desigualdades reduzidas"
         description: "Reduzir a desigualdade entre os países e dentro deles."
+        targets:
+          target_10_1:
+            long_title: "Até 2030, alcançar progressivamente e manter o crescimento da renda dos 40% inferiores da população a uma taxa superior à média nacional."
+            short_title: "Reduzir as Desigualdades de Renda"
+          target_10_2:
+            long_title: "Até 2030, empoderar e promover a inclusão social, econômica e política de todos, independentemente de idade, sexo, deficiência, raça, etnia, origem, religião ou status econômico ou outro."
+            short_title: "Promover a Inclusão Social, Econômica e Política Universal"
+          target_10_3:
+            long_title: "Garantir oportunidades iguais e reduzir as desigualdades de resultado, inclusive eliminando leis, políticas e práticas discriminatórias e promovendo legislação, políticas e ações apropriadas nesse sentido."
+            short_title: "Garantir Oportunidades Iguais e Acabar com a Discriminação"
+          target_10_4:
+            long_title: "Adotar políticas, especialmente fiscais, salariais e de proteção social, e alcançar progressivamente maior igualdade."
+            short_title: "Adotar Políticas Fiscais e Sociais que Promovam a Igualdade"
+          target_10_5:
+            long_title: "Melhorar a regulamentação e o monitoramento dos mercados e instituições financeiras globais e fortalecer a implementação dessas regulamentações."
+            short_title: "Melhoria da Regulamentação dos Mercados e Instituições Financeiras Globais"
+          target_10_6:
+            long_title: "Garantir maior representação e voz para os países em desenvolvimento na tomada de decisões em instituições econômicas e financeiras internacionais globais, a fim de fornecer instituições mais eficazes, credíveis, responsáveis e legítimas."
+            short_title: "Maior Representação para Países em Desenvolvimento em Instituições Financeiras"
+          target_10_7:
+            long_title: "Facilitar a migração e a mobilidade das pessoas de forma ordenada, segura, regular e responsável, incluindo por meio da implementação de políticas de migração planejadas e bem gerenciadas."
+            short_title: "Políticas de Migração Responsáveis e Bem Gerenciadas"
+          target_10_A:
+            long_title: "Implementar o princípio do tratamento especial e diferenciado para os países em desenvolvimento, em particular os países menos desenvolvidos, de acordo com os acordos da Organização Mundial do Comércio."
+            short_title: "Tratamento Especial e Diferenciado para Países em Desenvolvimento"
+          target_10_B:
+            long_title: "Incentivar a assistência oficial ao desenvolvimento e os fluxos financeiros, incluindo o investimento direto estrangeiro, para Estados onde a necessidade é maior, em particular os países menos desenvolvidos, os países africanos, os pequenos Estados insulares em desenvolvimento e os países em desenvolvimento sem litoral, de acordo com seus planos e programas nacionais."
+            short_title: "Incentivar a Assistência ao Desenvolvimento e o Investimento nos Países Menos Desenvolvidos"
+          target_10_C:
+            long_title: "Até 2030, reduzir para menos de 3% os custos de transação das remessas de migrantes e eliminar os corredores de remessas com custos superiores a 5%."
+            short_title: "Reduzir os Custos de Transação das Remessas de Migrantes"
       goal_11:
         title: "Cidades sustentáveis e comunidades"
         description: "Tornar as cidades inclusivas, seguras, resilientes e sustentáveis."
+        targets:
+          target_11_1:
+            long_title: "Até 2030, garantir acesso para todos a moradias adequadas, seguras e acessíveis, bem como serviços básicos e modernizar favelas."
+            short_title: "Moradias Seguras e Acessíveis"
+          target_11_2:
+            long_title: "Até 2030, fornecer acesso a sistemas de transporte seguros, acessíveis, sustentáveis e acessíveis para todos, melhorando a segurança no trânsito, especialmente por meio da expansão do transporte público, com atenção especial às necessidades dos vulneráveis, mulheres, crianças, pessoas com deficiência e idosos."
+            short_title: "Sistemas de Transporte Acessíveis e Sustentáveis"
+          target_11_3:
+            long_title: "Até 2030, aprimorar a urbanização inclusiva e sustentável e a capacidade para o planejamento e gestão participativos, integrados e sustentáveis dos assentamentos humanos em todos os países."
+            short_title: "Urbanização Inclusiva e Sustentável"
+          target_11_4:
+            long_title: "Fortalecer os esforços para proteger e salvaguardar o patrimônio cultural e natural do mundo."
+            short_title: "Proteger o Patrimônio Cultural e Natural do Mundo"
+          target_11_5:
+            long_title: "Até 2030, reduzir significativamente o número de mortes e o número de pessoas afetadas e diminuir substancialmente as perdas econômicas diretas em relação ao produto interno bruto global causadas por desastres, incluindo desastres relacionados à água, com foco na proteção dos pobres e das pessoas em situação vulnerável."
+            short_title: "Reduzir os Efeitos Negativos dos Desastres Naturais"
+          target_11_6:
+            long_title: "Até 2030, reduzir o impacto ambiental per capita adverso das cidades, incluindo prestando especial atenção à qualidade do ar e à gestão de resíduos municipais e outros."
+            short_title: "Reduzir o Impacto Ambiental das Cidades"
+          target_11_7:
+            long_title: "Até 2030, fornecer acesso universal a espaços verdes e públicos seguros, inclusivos e acessíveis, em particular para mulheres e crianças, idosos e pessoas com deficiência."
+            short_title: "Fornecer Acesso a Espaços Verdes e Públicos Seguros e Inclusivos"
+          target_11_A:
+            long_title: "Apoiar vínculos econômicos, sociais e ambientais positivos entre áreas urbanas, peri-urbanas e rurais, fortalecendo o planejamento de desenvolvimento nacional e regional."
+            short_title: "Planejamento de Desenvolvimento Nacional e Regional Forte"
+          target_11_B:
+            long_title: "Até 2020, aumentar substancialmente o número de cidades e assentamentos humanos que adotam e implementam políticas e planos integrados em direção à inclusão, eficiência de recursos, mitigação e adaptação às mudanças climáticas, resiliência a desastres e desenvolver e implementar, em linha com o Quadro de Sendai para Redução de Riscos de Desastres 2015-2030, gestão holística de riscos de desastres em todos os níveis."
+            short_title: "Implementar Políticas para Inclusão, Eficiência de Recursos e Redução de Riscos de Desastres"
+          target_11_C:
+            long_title: "Apoiar os países menos desenvolvidos, inclusive por meio de assistência financeira e técnica, na construção de edifícios sustentáveis e resilientes utilizando materiais locais."
+            short_title: "Apoiar Países Menos Desenvolvidos em Construção Sustentável e Resiliente"
       goal_12:
         title: "Consumo e produção responsáveis"
         description: "Garantir consumo sustentável e padrões de produção."
+        targets:
+          target_12_1:
+            long_title: "Implementar o quadro de programas de 10 anos sobre consumo e produção sustentáveis, com todos os países tomando medidas, com os países desenvolvidos assumindo a liderança, levando em conta o desenvolvimento e as capacidades dos países em desenvolvimento."
+            short_title: "Implementar o Quadro de Consumo e Produção Sustentáveis de 10 Anos"
+          target_12_2:
+            long_title: "Até 2030, alcançar a gestão sustentável e o uso eficiente dos recursos naturais."
+            short_title: "Gestão e Uso Sustentável dos Recursos Naturais"
+          target_12_3:
+            long_title: "Até 2030, reduzir pela metade o desperdício de alimentos per capita global no varejo e no nível do consumidor e reduzir as perdas de alimentos ao longo das cadeias de produção e fornecimento, incluindo as perdas pós-colheita."
+            short_title: "Reduzir pela Metade o Desperdício Per Capita de Alimentos Global"
+          target_12_4:
+            long_title: "Até 2020, alcançar a gestão ambientalmente adequada de produtos químicos e todos os resíduos ao longo de seu ciclo de vida, de acordo com os marcos internacionais acordados, e reduzir significativamente sua liberação para o ar, água e solo, a fim de minimizar seus impactos adversos sobre a saúde humana e o meio ambiente."
+            short_title: "Gestão Responsável de Produtos Químicos e Resíduos"
+          target_12_5:
+            long_title: "Até 2030, reduzir substancialmente a geração de resíduos por meio de prevenção, redução, reciclagem e reutilização."
+            short_title: "Reduzir Substancialmente a Geração de Resíduos"
+          target_12_6:
+            long_title: "Incentivar empresas, especialmente grandes e transnacionais, a adotarem práticas sustentáveis e a integrar informações sobre sustentabilidade em seu ciclo de relatórios."
+            short_title: "Incentivar Empresas a Adotar Práticas Sustentáveis e Relatórios de Sustentabilidade"
+          target_12_7:
+            long_title: "Promover práticas de compras públicas sustentáveis, de acordo com políticas e prioridades nacionais."
+            short_title: "Promover Práticas de Compras Públicas Sustentáveis"
+          target_12_8:
+            long_title: "Até 2030, garantir que todas as pessoas tenham as informações e a conscientização relevantes para um desenvolvimento e estilos de vida sustentáveis em harmonia com a natureza."
+            short_title: "Promover a Compreensão Universal de Estilos de Vida Sustentáveis"
+          target_12_A:
+            long_title: "Apoiar os países em desenvolvimento a fortalecer sua capacidade científica e tecnológica para avançar em direção a padrões de consumo e produção mais sustentáveis."
+            short_title: "Apoiar a Capacidade Científica e Tecnológica dos Países em Desenvolvimento para Consumo e Produção Sustentáveis"
+          target_12_B:
+            long_title: "Desenvolver e implementar ferramentas para monitorar os impactos do desenvolvimento sustentável para o turismo sustentável que crie empregos e promova a cultura e os produtos locais."
+            short_title: "Desenvolver e Implementar Ferramentas para Monitorar o Turismo Sustentável"
+          target_12_C:
+            long_title: "Racionalizar subsídios ineficientes aos combustíveis fósseis que incentivam o consumo desperdiçador, removendo distorções de mercado, de acordo com as circunstâncias nacionais, incluindo a reestruturação da tributação e a eliminação gradual dos subsídios prejudiciais, onde existam, para refletir seus impactos ambientais, levando em conta plenamente as necessidades e condições específicas dos países em desenvolvimento e minimizando os possíveis impactos adversos em seu desenvolvimento de uma maneira que proteja os pobres e as comunidades afetadas."
+            short_title: "Remover Distorções de Mercado que Incentivam o Consumo Desperdiçador"
       goal_13:
         title: "Ações pelo clima"
         description: "Tomar ações urgentes para combater as mudanças climáticas e seus impactos."
+        targets:
+          target_13_1:
+            long_title: "Fortalecer a resiliência e a capacidade adaptativa aos riscos relacionados ao clima e desastres naturais em todos os países."
+            short_title: "Fortalecer a Resiliência e a Capacidade Adaptativa a Desastres Relacionados ao Clima"
+          target_13_2:
+            long_title: "Integrar medidas de mudança climática em políticas, estratégias e planejamento nacionais."
+            short_title: "Integrar Medidas de Mudança Climática em Políticas e Planejamento"
+          target_13_3:
+            long_title: "Melhorar a educação, a conscientização e a capacidade humana e institucional sobre mitigação, adaptação, redução de impactos e alerta precoce às mudanças climáticas."
+            short_title: "Construir Conhecimento e Capacidade para Enfrentar as Mudanças Climáticas"
+          target_13_A:
+            long_title: "Implementar o compromisso assumido pelas partes desenvolvidas da Convenção-Quadro das Nações Unidas sobre Mudança Climática de atingir uma meta de mobilizar conjuntamente US$ 100 bilhões anualmente até 2020 de todas as fontes para atender às necessidades dos países em desenvolvimento no contexto de ações de mitigação significativas e transparência na implementação e operacionalizar plenamente o Fundo Verde do Clima por meio de sua capitalização o mais rápido possível."
+            short_title: "Implementar a Convenção-Quadro das Nações Unidas sobre Mudança Climática"
+          target_13_B:
+            long_title: "Promover mecanismos para aumentar a capacidade de planejamento e gestão eficazes relacionados às mudanças climáticas nos países menos desenvolvidos e nos pequenos Estados insulares em desenvolvimento, incluindo foco em mulheres, jovens e comunidades locais e marginalizadas."
+            short_title: "Promover Mecanismos para Aumentar a Capacidade de Planejamento e Gestão"
       goal_14:
         title: "Vida aquática"
         description: "Conservar e usar de forma sustentável os oceanos, mares e recursos marinhos."
+        targets:
+          target_14_1:
+            long_title: "Até 2025, prevenir e reduzir significativamente a poluição marinha de todos os tipos, em particular das atividades terrestres, incluindo detritos marinhos e poluição por nutrientes."
+            short_title: "Reduzir a Poluição Marinha"
+          target_14_2:
+            long_title: "Até 2020, gerenciar e proteger de forma sustentável os ecossistemas marinhos e costeiros para evitar impactos adversos significativos, incluindo fortalecendo sua resiliência e tomando medidas para sua restauração a fim de alcançar oceanos saudáveis e produtivos."
+            short_title: "Proteger e Restaurar Ecossistemas"
+          target_14_3:
+            long_title: "Minimizar e abordar os impactos da acidificação dos oceanos, incluindo por meio de cooperação científica aprimorada em todos os níveis."
+            short_title: "Reduzir a Acidificação dos Oceanos"
+          target_14_4:
+            long_title: "Até 2020, regular eficazmente a colheita e acabar com a sobrepesca, a pesca ilegal, não declarada e não regulamentada e as práticas de pesca destrutivas e implementar planos de gestão baseados na ciência, a fim de restaurar os estoques de peixes no menor tempo possível, pelo menos para níveis que possam produzir rendimento máximo sustentável conforme determinado por suas características biológicas."
+            short_title: "Pesca Sustentável"
+          target_14_5:
+            long_title: "Até 2020, conservar pelo menos 10% das áreas costeiras e marinhas, de acordo com a lei nacional e internacional e com base nas melhores informações científicas disponíveis."
+            short_title: "Conservar Áreas Costeiras e Marinhas"
+          target_14_6:
+            long_title: "Até 2020, proibir certas formas de subsídios à pesca que contribuem para a sobrecapacidade e a sobrepesca, eliminar subsídios que contribuem para a pesca ilegal, não declarada e não regulamentada e se abster de introduzir novos subsídios desse tipo, reconhecendo que o tratamento especial e diferenciado apropriado e eficaz para os países em desenvolvimento e os países menos desenvolvidos deve ser parte integrante da negociação de subsídios à pesca da Organização Mundial do Comércio."
+            short_title: "Acabar com Subsídios que Contribuem para a Sobrepesca"
+          target_14_7:
+            long_title: "Até 2030, aumentar os benefícios econômicos para os pequenos Estados insulares em desenvolvimento e os países menos desenvolvidos a partir do uso sustentável dos recursos marinhos, incluindo por meio da gestão sustentável da pesca, da aquicultura e do turismo."
+            short_title: "Aumentar os Benefícios Econômicos do Uso Sustentável dos Recursos Marinhos"
+          target_14_A:
+            long_title: "Aumentar o conhecimento científico, desenvolver a capacidade de pesquisa e transferir tecnologia marinha, levando em consideração os Critérios e Diretrizes da Comissão Oceanográfica Intergovernamental sobre a Transferência de Tecnologia Marinha, a fim de melhorar a saúde dos oceanos e aumentar a contribuição da biodiversidade marinha para o desenvolvimento dos países em desenvolvimento, em particular os pequenos Estados insulares em desenvolvimento e os países menos desenvolvidos."
+            short_title: "Aumentar o Conhecimento Científico, a Pesquisa e a Tecnologia para a Saúde dos Oceanos"
+          target_14_B:
+            long_title: "Fornecer acesso aos pescadores artesanais de pequena escala aos recursos e mercados marinhos."
+            short_title: "Apoiar Pescadores Artesanais de Pequena Escala"
+          target_14_C:
+            long_title: "Aprimorar a conservação e o uso sustentável dos oceanos e seus recursos, implementando a lei internacional refletida na UNCLOS, que fornece o marco legal para a conservação e uso sustentável dos oceanos e seus recursos, conforme lembrado no parágrafo 158 de O Futuro Que Queremos."
+            short_title: "Implementar e Aplicar a Lei Internacional do Mar"
       goal_15:
         title: "Vida terrestre"
         description: "Administrar sustentavelmente florestas, combater a desertificação, parar e reverter a degradação da terra, parar a perda da biodiversidade."
+        targets:
+          target_15_1:
+            long_title: "Até 2020, garantir a conservação, restauração e uso sustentável dos ecossistemas terrestres e de água doce e seus serviços, em particular florestas, zonas úmidas, montanhas e terras secas, em linha com as obrigações assumidas em acordos internacionais."
+            short_title: "Conservar e Restaurar Ecossistemas Terrestres e de Água Doce"
+          target_15_2:
+            long_title: "Até 2020, promover a implementação da gestão sustentável de todos os tipos de florestas, deter o desmatamento, restaurar florestas degradadas e aumentar substancialmente o reflorestamento e o reflorestamento em todo o mundo."
+            short_title: "Acabar com o Desmatamento e Restaurar Florestas Degradadas"
+          target_15_3:
+            long_title: "Até 2030, combater a desertificação, restaurar terras e solos degradados, incluindo terras afetadas por desertificação, seca e inundações, e esforçar-se para alcançar um mundo neutro em degradação da terra."
+            short_title: "Acabar com a Desertificação e Restaurar Terras Degradadas"
+          target_15_4:
+            long_title: "Até 2030, garantir a conservação dos ecossistemas montanhosos, incluindo sua biodiversidade, a fim de aumentar sua capacidade de fornecer benefícios essenciais para o desenvolvimento sustentável."
+            short_title: "Garantir a Conservação dos Ecossistemas Montanhosos"
+          target_15_5:
+            long_title: "Tomar medidas urgentes e significativas para reduzir a degradação de habitats naturais, deter a perda de biodiversidade e, até 2020, proteger e prevenir a extinção de espécies ameaçadas."
+            short_title: "Proteger a Biodiversidade e os Habitats Naturais"
+          target_15_6:
+            long_title: "Promover a distribuição justa e equitativa dos benefícios decorrentes da utilização de recursos genéticos e promover o acesso adequado a esses recursos, conforme acordado internacionalmente."
+            short_title: "Promover o Acesso a Recursos Genéticos e a Distribuição Justa dos Benefícios"
+          target_15_7:
+            long_title: "Tomar medidas urgentes para acabar com a caça furtiva e o tráfico de espécies protegidas de flora e fauna e abordar a demanda e a oferta de produtos ilegais da vida selvagem."
+            short_title: "Eliminar a Caça Furtiva e o Tráfico de Espécies Protegidas"
+          target_15_8:
+            long_title: "Até 2020, introduzir medidas para prevenir a introdução e reduzir significativamente o impacto de espécies exóticas invasoras em ecossistemas terrestres e aquáticos e controlar ou erradicar as espécies prioritárias."
+            short_title: "Prevenir Espécies Exóticas Invasoras em Ecossistemas Terrestres e Aquáticos"
+          target_15_9:
+            long_title: "Até 2020, integrar valores de ecossistema e biodiversidade em processos de planejamento, desenvolvimento, redução da pobreza e contabilidade nacionais e locais."
+            short_title: "Integrar Ecossistema e Biodiversidade no Planejamento Governamental"
+          target_15_A:
+            long_title: "Mobilizar e aumentar significativamente os recursos financeiros de todas as fontes para conservar e utilizar de forma sustentável a biodiversidade e os ecossistemas."
+            short_title: "Aumentar os Recursos Financeiros para Conservar e Utilizar Sustentavelmente o Ecossistema e a Biodiversidade"
+          target_15_B:
+            long_title: "Mobilizar recursos significativos de todas as fontes e em todos os níveis para financiar a gestão sustentável das florestas e fornecer incentivos adequados aos países em desenvolvimento para avançar nessa gestão, incluindo conservação e reflorestamento."
+            short_title: "Financiar e Incentivar a Gestão Sustentável das Florestas"
+          target_15_C:
+            long_title: "Fortalecer o apoio global aos esforços para combater a caça furtiva e o tráfico de espécies protegidas, incluindo aumentando a capacidade das comunidades locais para buscar oportunidades de subsistência sustentáveis."
+            short_title: "Combater a Caça Furtiva e o Tráfico Globais"
       goal_16:
         title: "Paz, justiça e instituições fortes"
         description: "Promover sociedades justas, pacíficas e inclusivas."
+        targets:
+          target_16_1:
+            long_title: "Reduzir significativamente todas as formas de violência e as taxas de mortalidade relacionadas em todos os lugares."
+            short_title: "Reduzir a Violência em Todos os Lugares"
+          target_16_2:
+            long_title: "Acabar com o abuso, a exploração, o tráfico e todas as formas de violência contra e tortura de crianças."
+            short_title: "Proteger Crianças de Abuso, Exploração, Tráfico e Violência"
+          target_16_3:
+            long_title: "Promover o estado de direito nos níveis nacional e internacional e garantir igualdade de acesso à justiça para todos."
+            short_title: "Promover o Estado de Direito e Garantir Igualdade de Acesso à Justiça"
+          target_16_4:
+            long_title: "Até 2030, reduzir significativamente os fluxos financeiros e de armas ilícitos, fortalecer a recuperação e a devolução de ativos roubados e combater todas as formas de crime organizado."
+            short_title: "Combater o Crime Organizado e os Fluxos Financeiros e de Armas Ilícitos"
+          target_16_5:
+            long_title: "Reduzir substancialmente a corrupção e a suborno em todas as suas formas."
+            short_title: "Reduzir Substancialmente a Corrupção e a Suborno"
+          target_16_6:
+            long_title: "Desenvolver instituições eficazes, responsáveis e transparentes em todos os níveis."
+            short_title: "Desenvolver Instituições Eficazes, Responsáveis e Transparentes"
+          target_16_7:
+            long_title: "Garantir a tomada de decisões responsiva, inclusiva, participativa e representativa em todos os níveis."
+            short_title: "Garantir a Tomada de Decisões Responsiva, Inclusiva e Representativa"
+          target_16_8:
+            long_title: "Ampliar e fortalecer a participação dos países em desenvolvimento nas instituições de governança global."
+            short_title: "Fortalecer a Participação na Governança Global"
+          target_16_9:
+            long_title: "Até 2030, fornecer identidade legal para todos, incluindo registro de nascimento."
+            short_title: "Fornecer Identidade Legal Universal"
+          target_16_10:
+            long_title: "Garantir o acesso público à informação e proteger as liberdades fundamentais, de acordo com a legislação nacional e os acordos internacionais."
+            short_title: "Garantir Acesso Público à Informação e Proteger Liberdades Fundamentais"
+          target_16_A:
+            long_title: "Fortalecer as instituições nacionais relevantes, inclusive por meio de cooperação internacional, para desenvolver capacidades em todos os níveis, em particular nos países em desenvolvimento, para prevenir a violência e combater o terrorismo e o crime."
+            short_title: "Fortalecer Instituições Nacionais para Prevenir a Violência e Combater o Terrorismo e o Crime"
+          target_16_B:
+            long_title: "Promover e aplicar leis e políticas não discriminatórias para o desenvolvimento sustentável."
+            short_title: "Promover e Aplicar Leis e Políticas Não Discriminatórias"
       goal_17:
         title: "Parecerias para os objetivos"
         description: "Revitalizar a parceria mundial para o desenvolvimento sustentável."
+        targets:
+          target_17_1:
+            long_title: "Fortalecer a mobilização de recursos domésticos, incluindo por meio de apoio internacional a países em desenvolvimento, para melhorar a capacidade doméstica de arrecadação de impostos e outras receitas."
+            short_title: "Mobilizar Recursos para Melhorar a Arrecadação de Receitas Domésticas"
+          target_17_2:
+            long_title: "Países desenvolvidos devem cumprir integralmente seus compromissos de assistência oficial ao desenvolvimento, incluindo o compromisso de muitos países desenvolvidos de atingir a meta de 0,7% da AOD/PIB para países em desenvolvimento e de 0,15 a 0,20% da AOD/PIB para os países menos desenvolvidos. Os fornecedores de AOD são incentivados a considerar estabelecer uma meta de fornecer pelo menos 0,20% da AOD/PIB para os países menos desenvolvidos."
+            short_title: "Implementar Todos os Compromissos de Assistência ao Desenvolvimento"
+          target_17_3:
+            long_title: "Mobilizar recursos financeiros adicionais para países em desenvolvimento de múltiplas fontes."
+            short_title: "Mobilizar Recursos Financeiros para Países em Desenvolvimento"
+          target_17_4:
+            long_title: "Auxiliar os países em desenvolvimento a alcançar a sustentabilidade da dívida a longo prazo por meio de políticas coordenadas voltadas para promover o financiamento da dívida, o alívio da dívida e a reestruturação da dívida, conforme apropriado, e abordar a dívida externa dos países pobres altamente endividados para reduzir o sofrimento da dívida."
+            short_title: "Auxiliar os Países em Desenvolvimento a Alcançar a Sustentabilidade da Dívida"
+          target_17_5:
+            long_title: "Adotar e implementar regimes de promoção de investimentos para os países menos desenvolvidos."
+            short_title: "Investir em Países Menos Desenvolvidos"
+          target_17_6:
+            long_title: "Aprimorar a cooperação regional e internacional Norte-Sul, Sul-Sul e triangular sobre e o acesso à ciência, tecnologia e inovação e aprimorar o compartilhamento de conhecimento em termos mutuamente acordados, incluindo por meio de melhor coordenação entre os mecanismos existentes, em particular no nível das Nações Unidas, e por meio de um mecanismo global de facilitação tecnológica."
+            short_title: "Compartilhamento de Conhecimento e Cooperação para Acesso à Ciência, Tecnologia e Inovação"
+          target_17_7:
+            long_title: "Promover o desenvolvimento, a transferência, a disseminação e a difusão de tecnologias ambientalmente sólidas para os países em desenvolvimento em termos favoráveis, incluindo em termos concessionais e preferenciais, conforme mutuamente acordado."
+            short_title: "Promover Tecnologias Sustentáveis para Países em Desenvolvimento"
+          target_17_8:
+            long_title: "Operacionalizar plenamente o banco de tecnologia e o mecanismo de construção de capacidades de ciência, tecnologia e inovação para os países menos desenvolvidos até 2017 e aprimorar o uso da tecnologia habilitadora, em particular a tecnologia da informação e comunicação."
+            short_title: "Fortalecer a Capacidade de Ciência, Tecnologia e Inovação para os Países Menos Desenvolvidos"
+          target_17_9:
+            long_title: "Aprimorar o apoio internacional à implementação de construção de capacidades eficaz e direcionada em países em desenvolvimento para apoiar planos nacionais para implementar todos os objetivos de desenvolvimento sustentável, incluindo por meio de cooperação Norte-Sul, Sul-Sul e triangular."
+            short_title: "Aprimorar a Capacidade dos ODS nos Países em Desenvolvimento"
+          target_17_10:
+            long_title: "Promover um sistema multilateral de comércio universal, baseado em regras, aberto, não discriminatório e equitativo sob a Organização Mundial do Comércio, incluindo por meio da conclusão de negociações em sua Agenda de Desenvolvimento de Doha."
+            short_title: "Promover um Sistema Comercial Universal sob a OMC"
+          target_17_11:
+            long_title: "Aumentar significativamente as exportações dos países em desenvolvimento, em particular com vista a dobrar a participação dos países menos desenvolvidos nas exportações globais até 2020."
+            short_title: "Aumentar as Exportações dos Países em Desenvolvimento"
+          target_17_12:
+            long_title: "Realizar a implementação oportuna do acesso livre de tarifas e cotas em bases duradouras para todos os países menos desenvolvidos, de acordo com as decisões da Organização Mundial do Comércio, incluindo garantindo que as regras de origem preferenciais aplicáveis às importações dos países menos desenvolvidos sejam transparentes e simples e contribuam para facilitar o acesso ao mercado."
+            short_title: "Remover Barreiras Comerciais para Países Menos Desenvolvidos"
+          target_17_13:
+            long_title: "Aprimorar a estabilidade macroeconômica global, incluindo por meio de coordenação e coerência de políticas."
+            short_title: "Aprimorar a Estabilidade Macroeconômica Global"
+          target_17_14:
+            long_title: "Aprimorar a coerência de políticas para o desenvolvimento sustentável."
+            short_title: "Aprimorar a Coerência de Políticas para o Desenvolvimento Sustentável"
+          target_17_15:
+            long_title: "Respeitar o espaço político e a liderança de cada país para estabelecer e implementar políticas para a erradicação da pobreza e o desenvolvimento sustentável."
+            short_title: "Respeitar a Liderança Nacional para Implementar Políticas para os Objetivos de Desenvolvimento Sustentável"
+          target_17_16:
+            long_title: "Aprimorar a parceria global para o desenvolvimento sustentável, complementada por parcerias multi-stakeholder que mobilizam e compartilham conhecimento, experiência, tecnologia e recursos financeiros, para apoiar o alcance dos objetivos de desenvolvimento sustentável em todos os países, em particular os países em desenvolvimento."
+            short_title: "Aprimorar a Parceria Global para o Desenvolvimento Sustentável"
+          target_17_17:
+            long_title: "Incentivar e promover parcerias públicas, público-privadas e da sociedade civil eficazes, baseando-se na experiência e nas estratégias de recursos das parcerias."
+            short_title: "Incentivar Parcerias Eficazes"
+          target_17_18:
+            long_title: "Até 2020, aprimorar o apoio à construção de capacidades para países em desenvolvimento, incluindo para países menos desenvolvidos e pequenos Estados insulares em desenvolvimento, para aumentar significativamente a disponibilidade de dados de alta qualidade, oportunos e confiáveis, desagregados por renda, gênero, idade, raça, etnia, status migratório, deficiência, localização geográfica e outras características relevantes nos contextos nacionais."
+            short_title: "Aprimorar a Disponibilidade de Dados Confiáveis"
+          target_17_19:
+            long_title: "Até 2030, construir sobre iniciativas existentes para desenvolver medições de progresso em desenvolvimento sustentável que complementem o produto interno bruto e apoiar a construção de capacidades estatísticas em países em desenvolvimento."
+            short_title: "Desenvolver Ainda Mais Medidas de Progresso"
       help:
         title: "Objetivos de Desenvolvimento Sustentável - Ajuda"
       show:
         targets:
           no_local_targets: Este objetivo não tem metas locais
+      filter:
+        heading: "Filtrar por ODS"
+        link: "Veja todas as %{resources} relacionadas ao objetivo %{code}"
+        more:
+          one: "One more goal"
+          other: "%{count} more goals"
     related_list_selector:
       goal_list: "Você pode selecionar um ou mais ODS com os quais se alinha sua %{record}"
       hint: Você pode inserir o código de um objetivo/meta específico ou um texto para encontrá-lo. Para mais informações, visite %{link}.
