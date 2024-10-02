@@ -599,6 +599,8 @@ pt-BR:
       help:
         title: "Objetivos de Desenvolvimento Sustentável - Ajuda"
       show:
+        read_more: "Leia mais sobre %{goal}"
+        read_less: "Leia menos sobre %{goal}"
         targets:
           no_local_targets: Este objetivo não tem metas locais
       filter:
