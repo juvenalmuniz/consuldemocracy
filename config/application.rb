@@ -109,7 +109,7 @@ module Consul
       "gl" => "es",
       "it" => "es",
       "oc" => "fr",
-      "pt-BR" => "es",
+      "pt-BR" => "en",
       "val" => "es"
     }]
 

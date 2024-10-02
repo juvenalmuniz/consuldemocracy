@@ -2,7 +2,7 @@ class User < ApplicationRecord
   include Verification
   attribute :registering_from_web, default: false
 
-  devise :database_authenticatable, :registerable, :confirmable, :recoverable, :rememberable,
+  devise :database_authenticatable, :confirmable, :recoverable, :rememberable,
          :trackable, :validatable, :omniauthable, :password_expirable, :secure_validatable,
          authentication_keys: [:login]
   devise :lockable if Rails.application.config.devise_lockable

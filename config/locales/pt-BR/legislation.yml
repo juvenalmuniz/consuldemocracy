@@ -96,7 +96,7 @@ pt-BR:
       participation:
         phase_not_open: Esta fase não está aberta
         organizations: As organizações não podem participar no debate
-        unauthenticated: Você precisa %{signin} ou %{signup} para participar.
+        unauthenticated: Você precisa %{signin} para participar.
         verified_only: Somente usuários verificados podem participar, %{verify_account}.
         debate_phase_not_open: Terminou a fase de debate e respostas não são mais aceitas
     shared:
