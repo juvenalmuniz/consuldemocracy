@@ -591,9 +591,11 @@ pt-BR:
           one: "One more goal"
           other: "%{count} more goals"
     related_list_selector:
+      goal_identifier: "ODS%{code}"
       goal_list: "Você pode selecionar um ou mais ODS com os quais se alinha sua %{record}"
-      hint: Você pode inserir o código de um objetivo/meta específico ou um texto para encontrá-lo. Para mais informações, visite %{link}.
       help:
+        title: "Quais ODSs e metas estão alinhados com minha %{record}?"
         text: "Página de ajuda ODS (SDG)"
+      hint: Você pode inserir o código de um objetivo/meta específico ou um texto para encontrá-lo. Para mais informações, visite %{link}.
       remove_tag: "Remover"
       title: "Objetivos e Metas de Desenvolvimento Sustentável"
