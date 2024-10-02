@@ -603,6 +603,7 @@ pt-BR:
         read_less: "Leia menos sobre %{goal}"
         targets:
           no_local_targets: Este objetivo não tem metas locais
+      title: "Objetivos de Desenvolvimento Sustentável"
       filter:
         heading: "Filtrar por ODS"
         link: "Veja todas as %{resources} relacionadas ao objetivo %{code}"
