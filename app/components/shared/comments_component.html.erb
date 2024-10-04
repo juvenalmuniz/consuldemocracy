@@ -6,7 +6,12 @@
       <% if current_user %>
         <%= render Comments::FormComponent.new(record, valuation: valuation) %>
       <% else %>
-        <%= render "shared/login_to_comment" %>
+        <div data-alert class="callout primary">
+          Você precisa 
+          <%= link_to t("devise_views.menu.login_items.login"),
+                      user_keycloak_openid_omniauth_authorize_path, rel: "nofollow", method: :post %>
+          para fazer um comentário.
+        </div>
       <% end %>
 
       <%= render Shared::OrderLinksComponent.new("comments", anchor: "comments") %>
