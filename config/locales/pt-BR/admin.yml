@@ -5,6 +5,8 @@ pt-BR:
     actions:
       actions: Ações
       block_author: "Bloquear o autor"
+      confirm_action: 'Você tem certeza? %{action} "%{name}"'
+      confirm_delete: 'Você tem certeza? Esta ação apagará "%{name}" definitivamente.'
       confirm_hide: Confirmar a moderação
       delete: "Apagar"
       hide: Ocultar
