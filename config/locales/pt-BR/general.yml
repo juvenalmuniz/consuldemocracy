@@ -20,6 +20,9 @@ pt-BR:
     close: Fechar
     menu: Menu
   comments:
+    actions:
+      confirm_delete: "Tem certeza? Esta ação apagará definitivamente este comentário."
+      delete: "Apagar comentário"
     comments_closed: Comentários estão fechados
     verified_only: Para participar %{verify_account}
     comment:

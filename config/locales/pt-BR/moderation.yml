@@ -1,5 +1,7 @@
 pt-BR:
   moderation:
+    actions:
+      confirm_action: "Tem certeza? %{action}"
     comments:
       index:
         block_authors: Bloquear autores
@@ -101,7 +103,8 @@ pt-BR:
       index:
         confirm_block: 'Tem certeza? Isto ocultará o "%{name}" assim como todos os seus conteúdos.'
         confirm_hide: 'Tem certeza? Isto ocultará o "%{name}" sem ocultar seus conteúdos.'
-        hide: Bloquear
+        hide: Ocultar
         search_placeholder: e-mail ou nome de usuário
         title: Bloquear usuários
-      notice_hide: Usuário bloqueado. Todos os debates e comentários do usuário foram ocultados.
+      notice_block: O usuário foi bloqueado. Todos os conteúdos publicados por este usuário foram ocultados.
+      notice_hide: Usuário ocultado. Todos os conteúdos publicados por este usuário continuam visíveis.
