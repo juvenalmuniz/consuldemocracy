@@ -6,8 +6,7 @@ module LinksHelper
   end
 
   def link_to_signin(options = {})
-    link_to t("devise_views.menu.login_items.login"),
-            user_keycloak_openid_omniauth_authorize_path, method: :post, options: options
+    link_to t("users.signin"), new_user_session_path, options
   end
 
   def link_to_signup(options = {})
