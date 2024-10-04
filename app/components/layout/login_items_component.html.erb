@@ -14,6 +14,6 @@
 <% else %>
   <li>
     <%= link_to t("devise_views.menu.login_items.login"),
-                new_user_session_path, rel: "nofollow" %>
+                user_keycloak_openid_omniauth_authorize_path, rel: "nofollow", method: :post %>
   </li>
 <% end %>
