@@ -71,9 +71,10 @@
 
     <% if @proposals.any? %>
       <div class="show-for-small-only">
-        <%= link_to t("proposals.index.start_proposal"),
-                    new_proposal_path,
-                    class: "button expanded" %>
+      <%= link_to t("proposals.index.start_proposal"),
+                  user_keycloak_openid_omniauth_authorize_path,
+                  class: "button expanded",
+                  method: :post %>
       </div>
     <% end %>
 
@@ -105,23 +106,9 @@
   <div class="small-12 medium-3 column">
     <aside class="margin-bottom">
       <%= link_to t("proposals.index.start_proposal"),
-                  new_proposal_path,
-                  class: "button expanded" %>
-
-      <div class="sidebar-divider"></div>
-      <h2 class="sidebar-title"><%= t("proposals.index.selected_proposals") %></h2>
-      <br>
-      <p class="small">
-        <%= link_to t("proposals.index.selected_proposals_link"), proposals_path(selected: "all") %>
-      </p>
-
-      <% if params[:retired].blank? %>
-        <%= render "categories" %>
-        <%= render "shared/tag_cloud", taggable: "Proposal" %>
-        <%= render Proposals::GeozonesComponent.new %>
-      <% end %>
-      <%= render "retired" %>
-      <%= render "proposals_lists" %>
+                  user_keycloak_openid_omniauth_authorize_path,
+                  class: "button expanded",
+                  method: :post %>
     </aside>
   </div>
 </div>
