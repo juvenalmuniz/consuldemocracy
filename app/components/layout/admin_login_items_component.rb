@@ -17,7 +17,6 @@ class Layout::AdminLoginItemsComponent < ApplicationComponent
         (admin_link if user.administrator?),
         (moderation_link if user.administrator? || user.moderator?),
         (valuation_link if feature?(:budgets) && (user.administrator? || user.valuator?)),
-        (management_link if user.administrator? || user.manager?),
         (officing_link if user.poll_officer?),
         (sdg_management_link if feature?(:sdg) && (user.administrator? || user.sdg_manager?))
       ]
