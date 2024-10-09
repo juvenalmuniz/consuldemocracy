@@ -20,7 +20,7 @@ module Abilities
         proposal.draft? && (user.administrator? || user.moderator?) && !proposal.retired?
       end
       can :dashboard, Proposal do |proposal|
-        proposal.author.id == user.id
+        proposal.author.id == user.id || user.administrator? || user.moderator?
       end
       can :manage_polls, Proposal do |proposal|
         proposal.author.id == user.id
