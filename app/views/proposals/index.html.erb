@@ -109,8 +109,7 @@
                     new_proposal_path,
                     class: "button expanded",
                     title: t("proposals.index.start_proposal"),
-                    method: "post",
-                    remote: true,
+                    method: "get",
                     "aria-label": t("proposals.index.start_proposal") %>
       <%= render Shared::ParticipationNotAllowedComponent.new(nil, cannot_vote_text: nil) %>
     </aside>
