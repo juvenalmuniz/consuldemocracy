@@ -23,17 +23,17 @@ module Abilities
         proposal.author.id == user.id || user.administrator? || user.moderator?
       end
       can :manage_polls, Proposal do |proposal|
-        proposal.author.id == user.id
+        false
       end
       can :manage_mailing, Proposal do |proposal|
-        proposal.author.id == user.id
+        false
       end
       can :manage_poster, Proposal do |proposal|
-        proposal.author.id == user.id
+        false
       end
 
       can :results, Poll do |poll|
-        poll.related&.author&.id == user.id
+        false
       end
 
       can [:retire_form, :retire], Proposal, author_id: user.id
