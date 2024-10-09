@@ -103,16 +103,16 @@
     </div>
   </div>
 
-  <div class="small-12 medium-3 column">
+  <div class="supports small-12 medium-3 column">
     <aside class="margin-bottom">
-      <% if current_user %>
-        <%= link_to t("proposals.index.start_proposal"),
-            new_proposal_path,
-            class: "button expanded" %>
-      <% else %>
-          <%= link_to t("Entrar para Criar proposta"),
-                      user_keycloak_openid_omniauth_authorize_path, rel: "nofollow", method: :post, class: "button expanded" %>
-      <% end %>
+      <%= button_to t("proposals.index.start_proposal"), 
+                    new_proposal_path,
+                    class: "button expanded",
+                    title: t("proposals.index.start_proposal"),
+                    method: "post",
+                    remote: true,
+                    "aria-label": t("proposals.index.start_proposal") %>
+      <%= render Shared::ParticipationNotAllowedComponent.new(nil, cannot_vote_text: nil) %>
     </aside>
   </div>
 </div>
