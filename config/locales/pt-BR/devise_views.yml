@@ -32,8 +32,8 @@ pt-BR:
         unlock_link: Desbloquear a minha conta
     menu:
       login_items:
-        login: Iniciar sessão
-        logout: Terminar sessão
+        login: Entrar
+        logout: Sair
         signup: Registre-se
     organizations:
       registrations:
@@ -62,7 +62,7 @@ pt-BR:
       new:
         remember_me: Lembre-se de mim
         submit: Entrar
-        title: Iniciar sessão
+        title: Entrar
     shared:
       links:
         login: Entrar

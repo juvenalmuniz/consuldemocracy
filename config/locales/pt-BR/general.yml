@@ -168,7 +168,7 @@ pt-BR:
     site_customization/page: página
     sdg/local_target: destino local
   geozones:
-    none: Todos os câmpus
+    none: Todas as cidades
   layouts:
     dashboard:
       proposal_header:
@@ -259,7 +259,7 @@ pt-BR:
       sign_up: Inscrever-se com o Google
       name: Google
     keycloak_openid:
-      sign_in: Iniciar sessão com o Passaporte UFMS
+      sign_in: Entrar com o Passaporte UFMS
       sign_up: Inscrever-se com o Passaporte UFMS
       name: Passaporte UFMS
     wordpress_oauth2:
@@ -573,7 +573,7 @@ pt-BR:
       title: "Votações"
       participate_button: "Participar desta votação"
       participate_button_expired: "Votação encerrada"
-      no_geozone_restricted: "Todos os câmpus"
+      no_geozone_restricted: "Todas as cidades"
       geozone_restricted: "Câmpus"
       geozone_info: "Podem participar as pessoas registradas em: "
       already_answer: "Já participou desta votação"
@@ -757,7 +757,7 @@ pt-BR:
   users:
     login_to_comment: "Você precisa %{signin} para fazer um comentário."
     login_to_continue: "Você precisa %{signin} para continuar."
-    signin: "iniciar sessão"
+    signin: "Entrar"
     signup: "registre-se"
     verify_account: "verifique sua conta"
     direct_messages:

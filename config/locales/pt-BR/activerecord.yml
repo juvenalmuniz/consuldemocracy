@@ -1,6 +1,6 @@
 pt-BR:
   attributes:
-    geozone_id: "Escopo da operação"
+    geozone_id: "Escolha a cidade"
     results_enabled: "Exibir resultados"
     stats_enabled: "Exibir estatísticas"
     advanced_stats_enabled: "Exibir estatísticas avançadas"

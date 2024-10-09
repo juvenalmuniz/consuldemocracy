@@ -145,7 +145,7 @@ es-PE:
     topic: Tema
     image: Imagen
   geozones:
-    none: Todos os câmpus
+    none: Todos as cidades
   layouts:
     dashboard:
       proposal_header:

@@ -62,7 +62,7 @@ $tiny-font-size:      rem-calc(12) !default;
 
 $font-family-serif: Georgia, "Times New Roman", Times, serif !default;
 
-$brand:             #004a83 !default;
+$brand:             darken(#6EC1E4, 25%) !default;
 $brand-secondary:   darken($brand, 10%) !default;
 
 $text-medium:       #515151 !default;
