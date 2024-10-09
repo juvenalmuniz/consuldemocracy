@@ -110,12 +110,8 @@
             new_proposal_path,
             class: "button expanded" %>
       <% else %>
-        <div data-alert class="callout primary">
-          Você precisa 
-          <%= link_to t("devise_views.menu.login_items.login"),
-                      user_keycloak_openid_omniauth_authorize_path, rel: "nofollow", method: :post %>
-          para criar uma proposta.
-        </div>
+          <%= link_to t("Entrar para Criar proposta"),
+                      user_keycloak_openid_omniauth_authorize_path, rel: "nofollow", method: :post, class: "button expanded" %>
       <% end %>
     </aside>
   </div>

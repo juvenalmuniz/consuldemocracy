@@ -385,6 +385,7 @@ pt-BR:
         view_proposal: Agora não, ir para minha proposta
       already_supported: Você já apoiou esta proposta. Compartilhe!
       support: Apoiar
+      support_label: "Apoiar %{proposal}"
       support_title: Apoiar esta proposta
       supports:
         zero: Sem apoio
