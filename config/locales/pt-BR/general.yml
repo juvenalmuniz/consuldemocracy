@@ -280,8 +280,8 @@ pt-BR:
         submit_button: Criar proposta
     created:
       title: Parabéns! Você deu o primeiro passo.
-      motivation: "É importante preparar a campanha de lançamento da sua proposta para que ela tenha êxito. Os primeiros dias são decisivos."
-      motivation_2: "<strong>Se desejar recomendações para preparar a publicação, deixe a proposta como rascunho e guiaremos você.</strong>"
+      motivation: "A sua proposta foi criada, mas encontra-se como rascunho. Após avaliação pela equipe de moderação, ela será publicada."
+      motivation_2: ""
       publish: Não, quero publicar a proposta
       dashboard: Sim, quero ajuda e publicarei mais tarde
       preview_title: Sua proposta ficará assim quando for publicada
