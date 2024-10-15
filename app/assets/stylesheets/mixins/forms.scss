@@ -25,8 +25,8 @@
     $polygon-size: $icon-size * 0.5;
     @include background-till-left-of-screen;
     @include brand-secondary-background;
-    border: $border-width solid $brand-secondary;
-    border: $border-width solid var(--brand-secondary, $brand-secondary);
+    border: $border-width solid $brand;
+    border: $border-width solid var(--brand, $brand);
     border-bottom-right-radius: rem-calc(12);
     border-top-right-radius: rem-calc(12);
     margin-top: $line-height * 2;
@@ -41,8 +41,8 @@
 
     @include breakpoint(large) {
       $rounding-error: 6px;
-      @include public-form-header-background($brand-secondary, $icon-size-with-padding);
-      @include public-form-header-background(var(--brand-secondary, $brand-secondary), $icon-size-with-padding);
+      @include public-form-header-background($brand, $icon-size-with-padding);
+      @include public-form-header-background(var(--brand, $brand), $icon-size-with-padding);
       padding-right: $icon-size-with-padding;
 
       &::after {

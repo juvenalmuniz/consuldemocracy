@@ -79,11 +79,11 @@
 }
 
 @mixin brand-secondary-background {
-  @include background-with-text-contrast($brand-secondary, brand-secondary);
+  @include background-with-text-contrast($brand, brand-secondary);
 }
 
 @mixin brand-secondary-color {
-  @include text-color($brand-secondary, brand-secondary);
+  @include text-color($brand, brand-secondary);
 }
 
 @mixin anchor-color {

@@ -96,7 +96,7 @@
   position: relative;
 
   &::before {
-    background-color: inherit;
+    background-color: $brand;
     content: "";
     height: 100%;
     position: absolute;
