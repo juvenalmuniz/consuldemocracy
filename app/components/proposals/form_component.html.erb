@@ -103,7 +103,7 @@
         const inputTags = document.getElementById('proposal_tag_list');
         var content = inputTags.value;
         console.log("input content: ", content);
-        let cats = content.replace(/"/g, '').split(',');
+        let cats = content.replace(/"/g, '').split(';');
         console.log("cats marcados: ", cats);
         cats.forEach(cat => {
             console.log("hash inputs: ", simpleHash(cat));

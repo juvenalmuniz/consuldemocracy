@@ -2,7 +2,7 @@
   "use strict";
   App.TagAutocomplete = {
     split: function(val) {
-      return val.split(/,\s*/);
+      return val.split(/;\s*/);
     },
     extractLast: function(term) {
       return App.TagAutocomplete.split(term).pop();
@@ -35,7 +35,7 @@
           terms.pop();
           terms.push(ui.item.value);
           terms.push("");
-          this.value = terms.join(", ");
+          this.value = terms.join("; ");
           return false;
         }
       });
