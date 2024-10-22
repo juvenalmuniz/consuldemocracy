@@ -171,7 +171,7 @@ class Proposal < ApplicationRecord
   end
 
   def editable_by?(user)
-    author_id == user.id && editable?
+    (author_id == user.id || user.administrator? || user.moderator?) && editable?
   end
 
   def votable_by?(user)
