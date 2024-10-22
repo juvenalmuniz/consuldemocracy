@@ -31,8 +31,6 @@
   <%= f.invisible_captcha :subtitle %>
 
   <fieldset>
-    <legend><%= t("shared.optional") %></legend>
-
     <% if feature?(:allow_images) %>
       <%= render Images::NestedComponent.new(f) %>
     <% end %>
@@ -65,8 +63,17 @@
 
       <div id="category_tags" class="tags">
         <%= f.label :category_tag_list, t("proposals.form.tag_category_label") %>
+        <%
+          def simple_hash(input)
+            hash = 0
+            input.each_char.with_index do |char, index|
+              hash = (hash + (char.ord * (index + 1))) % 10000000000
+            end
+            hash.to_s.rjust(10, '0')  # Ensure 10 characters by padding with zeros
+          end
+        %>
         <% categories.each do |tag| %>
-          <a class="js-add-tag-link"><%= tag.name %></a>
+          <a id="<%= simple_hash(tag.name) %>" class="js-add-tag-link" style="width:100%;text-align:center"><%= tag.name %></a>
         <% end %>
       </div>
 
@@ -75,9 +82,54 @@
                                   label: false,
                                   placeholder: t("proposals.form.tags_placeholder"),
                                   class: "js-tag-list tag-autocomplete",
+                                  style: "display: none",
                                   aria: { describedby: "tag-list-help-text" },
                                   data: { js_url: suggest_tags_path } %>
     </div>
+
+    <script>
+      function simpleHash(input) {
+        let hash = 0;
+        for (let i = 0; i < input.length; i++) {
+          hash = (hash + input.charCodeAt(i) * (i + 1)) % 10000000000;
+        }
+        return hash.toString().padStart(10, '0');  // Ensure 10 characters by padding with zeros
+      };
+      function updateButtons() {
+        $(".js-add-tag-link").each(function() {
+          $(this).css('background-color', '#ececec');
+          $(this).css('color', 'black');
+        });
+        const inputTags = document.getElementById('proposal_tag_list');
+        var content = inputTags.value;
+        console.log("input content: ", content);
+        let cats = content.replace(/"/g, '').split(',');
+        console.log("cats marcados: ", cats);
+        cats.forEach(cat => {
+            console.log("hash inputs: ", simpleHash(cat));
+            let element = document.getElementById(simpleHash(cat));
+            if (element) {
+                element.style.backgroundColor = 'rgb(33.0436046512, 134.6220930233, 177.4563953488)';
+                element.style.color = 'white';
+
+            }
+        });
+      };
+      $(document).ready(function() {
+        $(".js-add-tag-link").on("click", function(e) {
+          e.target.style.backgroundColor = "#ececec";
+          setTimeout(function() {
+            const input = document.getElementById('proposal_tag_list');
+            const ev = new Event('input');
+            input.dispatchEvent(ev);
+          }, 100);
+        });
+        updateButtons();
+      });
+      document.getElementById('proposal_tag_list').addEventListener('input', function(e) {
+        updateButtons();
+      });
+    </script>
 
     <% if current_user.unverified? %>
       <div>
