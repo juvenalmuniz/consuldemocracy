@@ -1,6 +1,6 @@
 class Proposals::VotesComponent < ApplicationComponent
   attr_reader :proposal
-  use_helpers :current_user, :link_to_verify_account
+  use_helpers :current_user, :link_to_verify_account, :user_signed_in?
 
   def initialize(proposal, vote_url: nil)
     @proposal = proposal
@@ -8,7 +8,7 @@ class Proposals::VotesComponent < ApplicationComponent
   end
 
   def vote_url
-    @vote_url || vote_proposal_path(proposal, value: "yes")
+    @vote_url || vote_proposal_path(proposal, value: voted? ? "no" : "yes")
   end
 
   private

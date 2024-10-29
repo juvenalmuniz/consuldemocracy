@@ -384,6 +384,7 @@ pt-BR:
         edit: "Antes que ela seja publicada, você pode alterar o texto da maneira que quiser."
         view_proposal: Agora não, ir para minha proposta
       already_supported: Você já apoiou esta proposta. Compartilhe!
+      unsupport: Remover apoio
       support: Apoiar
       support_label: "Apoiar %{proposal}"
       support_title: Apoiar esta proposta

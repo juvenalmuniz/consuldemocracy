@@ -2,10 +2,22 @@
   <%= render "proposals/supports", proposal: proposal %>
 
   <div class="in-favor">
-    <% if voted? %>
-      <div class="supported callout success">
-        <%= t("proposals.proposal.already_supported") %>
-      </div>
+    <% if !user_signed_in? %>
+      <%= button_to t("proposals.proposal.support"),
+                    vote_url,
+                    class: "button button-support small expanded",
+                    title: t("proposals.proposal.support_title"),
+                    method: "post",
+                    remote: true,
+                    "aria-label": support_aria_label %>
+    <% elsif voted? %>
+      <%= button_to t("proposals.proposal.unsupport"),
+                    vote_url,
+                    class: "button button-support small expanded",
+                    title: t("proposals.proposal.unsupport"),
+                    method: "post",
+                    remote: true,
+                    "aria-label": support_aria_label %>
     <% else %>
       <%= button_to t("proposals.proposal.support"),
                     vote_url,

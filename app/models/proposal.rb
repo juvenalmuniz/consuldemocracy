@@ -184,7 +184,11 @@ class Proposal < ApplicationRecord
 
   def register_vote(user, vote_value)
     if votable_by?(user) && !archived?
-      vote_by(voter: user, vote: vote_value)
+      if (vote_value == 'no')
+        unvote_by(user)
+      elsif user&.votes.distinct.count(:votable_id) < 5
+        vote_by(voter: user, vote: vote_value)
+      end
     end
   end
 
