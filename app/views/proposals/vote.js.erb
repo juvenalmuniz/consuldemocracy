@@ -1,4 +1,8 @@
+<% if @max_votes_reached %>
+    alert("Você atingiu o máximo de 5 apoios");
+<% else %>
     $("#<%= dom_id(@proposal) %>_votes").html("<%= j render("proposals/votes", proposal: @proposal) %>");
     App.Followable.update("<%= dom_id(@follow.followable) %>",
                         "<%= j render("follows/follow_button", follow: @follow) %>",
                         "<%= j render("layouts/flash") %>")
+<% end %>
