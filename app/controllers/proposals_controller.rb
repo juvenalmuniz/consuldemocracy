@@ -26,8 +26,6 @@ class ProposalsController < ApplicationController
   helper_method :resource_model, :resource_name
   respond_to :html, :js
 
-  MAX_VOTES = 5
-
   def show
     super
     @notifications = @proposal.notifications
@@ -60,7 +58,6 @@ class ProposalsController < ApplicationController
 
   def vote
     value = params[:value]
-    @max_votes_reached = current_user.votes.count >= MAX_VOTES && value == 'yes'
     @follow = Follow.find_or_create_by!(user: current_user, followable: @proposal)
     @proposal.register_vote(current_user, value)
   end
