@@ -405,7 +405,7 @@ pt-BR:
       author_deleted: Usuário excluído
       code: "Código da proposta:"
       comments_tab: Comentários
-      dashboard_proposal_link: Painel de controle
+      dashboard_proposal_link: Controlar/Alterar Proposta
       flag: Esta proposta já foi marcada como inadequada por vários usuários.
       notifications_tab: Notificações
       milestones_tab: Marcos
