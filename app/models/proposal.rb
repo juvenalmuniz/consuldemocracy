@@ -70,7 +70,6 @@ class Proposal < ApplicationRecord
   scope :sort_by_confidence_score, -> { reorder(confidence_score: :desc) }
   scope :sort_by_created_at,       -> { reorder(created_at: :desc) }
   scope :sort_by_most_commented,   -> { reorder(comments_count: :desc) }
-  scope :sort_by_relevance,        -> { all }
   scope :sort_by_flags,            -> { order(flags_count: :desc, updated_at: :desc) }
   scope :sort_by_archival_date,    -> { archived.sort_by_confidence_score }
   scope :sort_by_recommendations,  -> { order(cached_votes_up: :desc) }
@@ -243,7 +242,7 @@ class Proposal < ApplicationRecord
   end
 
   def self.proposals_orders(user)
-    orders = %w[hot_score confidence_score created_at relevance archival_date]
+    orders = %w[hot_score confidence_score created_at archival_date]
 
     if Setting["feature.user.recommendations_on_proposals"] && user&.recommended_proposals
       orders << "recommendations"
