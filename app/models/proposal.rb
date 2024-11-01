@@ -74,6 +74,7 @@ class Proposal < ApplicationRecord
   scope :sort_by_flags,            -> { order(flags_count: :desc, updated_at: :desc) }
   scope :sort_by_archival_date,    -> { archived.sort_by_confidence_score }
   scope :sort_by_recommendations,  -> { order(cached_votes_up: :desc) }
+  scope :search_by_todas_cidades, -> { where(geozone_id: nil).where(retired_at: nil) }
 
   scope :archived,       -> { where(created_at: ...Setting.archived_proposals_date_limit) }
   scope :not_archived,   -> { where(created_at: Setting.archived_proposals_date_limit..) }
@@ -132,8 +133,13 @@ class Proposal < ApplicationRecord
   end
 
   def self.search(terms)
-    by_code = search_by_code(terms.strip)
-    by_code.presence || pg_search(terms)
+    if terms.strip == "Todas as cidades"
+      search_by_todas_cidades
+    else
+      by_todas_cidades = search_by_todas_cidades()
+      by_code = search_by_code(terms.strip)
+      by_code.presence || pg_search(terms)
+    end
   end
 
   def self.search_by_code(terms)
