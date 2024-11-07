@@ -24,6 +24,7 @@
     initialize: function() {
       App.ParticipationNotAllowed.not_allowed("div.votes");
       App.ParticipationNotAllowed.not_allowed("div.supports");
+      App.ParticipationNotAllowed.not_allowed("div.celular");
     }
   };
 }).call(this);

@@ -70,11 +70,16 @@
     <% end %>
 
     <% if @proposals.any? %>
-      <div class="show-for-small-only">
-      <%= link_to t("proposals.index.start_proposal"),
-                  user_keycloak_openid_omniauth_authorize_path,
-                  class: "button expanded",
-                  method: :post %>
+      <div class="celular">
+      <aside class="margin-bottom show-for-small-only">
+        <%= button_to t("proposals.index.start_proposal"), 
+                      new_proposal_path,
+                      class: "button expanded",
+                      title: t("proposals.index.start_proposal"),
+                      method: "get",
+                      "aria-label": t("proposals.index.start_proposal") %>
+        <%= render Shared::ParticipationNotAllowedComponent.new(nil, cannot_vote_text: nil) %>
+      </aside>
       </div>
     <% end %>
 
