@@ -60,7 +60,7 @@ class ProposalsController < ApplicationController
 
   def vote
     value = params[:value]
-    @max_votes_reached = current_user.votes.count >= MAX_VOTES && value == 'yes'
+    @max_votes_reached = current_user.votes.where(votable_type: "Proposal").count >= MAX_VOTES && value == "yes"
     @follow = Follow.find_or_create_by!(user: current_user, followable: @proposal)
     @proposal.register_vote(current_user, value)
   end
@@ -103,7 +103,8 @@ class ProposalsController < ApplicationController
 
     def can_vote?(user, value)
       return false if user.nil?
-      return true if value == 'no'
+      return true if value == "no"
+
       user.votes.distinct.count(:votable_id) < MAX_VOTES
     end
 
