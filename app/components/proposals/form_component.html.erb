@@ -104,8 +104,9 @@
         var content = inputTags.value;
         console.log("input content: ", content);
         let cats = content.replace(/"/g, '').split(';');
-        console.log("cats marcados: ", cats);
-        cats.forEach(cat => {
+        let cleanCats = cats.map(cat => cat.trim())
+        console.log("cats marcados: ", cleanCats);
+        cleanCats.forEach(cat => {
             console.log("hash inputs: ", simpleHash(cat));
             let element = document.getElementById(simpleHash(cat));
             if (element) {
