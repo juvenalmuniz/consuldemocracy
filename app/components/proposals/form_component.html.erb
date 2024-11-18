@@ -103,8 +103,7 @@
         const inputTags = document.getElementById('proposal_tag_list');
         var content = inputTags.value;
         console.log("input content: ", content);
-        let cats = content.replace(/"/g, '');
-        cats = content.replace(/  /g, ' \/ ').split(';');
+        let cats = content.replace(/"/g, '').split(';');
         let cleanCats = cats.map(cat => cat.trim())
         console.log("cats marcados: ", cleanCats);
         cleanCats.forEach(cat => {
