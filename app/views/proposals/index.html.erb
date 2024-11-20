@@ -69,7 +69,7 @@
       <%= render "shared/order_links", i18n_namespace: "proposals.index" %>
     <% end %>
 
-    <% if @proposals.any? %>
+    <% if @proposals.any? and Time.zone.today < Date.new(2024, 11, 21) %>
       <div class="celular">
       <aside class="margin-bottom show-for-small-only">
         <%= button_to t("proposals.index.start_proposal"), 
@@ -108,6 +108,7 @@
     </div>
   </div>
 
+  <% if Time.zone.today < Date.new(2024, 11, 21) %>
   <div class="supports small-12 medium-3 column">
     <aside class="margin-bottom">
       <%= button_to t("proposals.index.start_proposal"), 
@@ -119,4 +120,5 @@
       <%= render Shared::ParticipationNotAllowedComponent.new(nil, cannot_vote_text: nil) %>
     </aside>
   </div>
+  <% end %>
 </div>

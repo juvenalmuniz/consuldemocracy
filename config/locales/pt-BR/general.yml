@@ -398,8 +398,8 @@ pt-BR:
         other: "%{count} votos"
       supports_necessary: "%{number} apoios necessários"
       total_percent: 100%
-      archived: "Esta proposta foi arquivada e não é possível angariar suporte."
-      successful: "Esta proposta tem alcançado os suportes necessários."
+      archived: "Esta proposta foi arquivada e não é possível angariar apoios."
+      successful: "Esta proposta alcançou os apoios necessários."
       selected: "Proposta selecionada"
     show:
       author_deleted: Usuário excluído

@@ -151,6 +151,10 @@ class Proposal < ApplicationRecord
     /\A#{Setting["proposal_code_prefix"]}-\d\d\d\d-\d\d-(\d*)\z/.match(terms)
   end
 
+  def comments_closed?
+    Time.zone.today >= Date.new(2024, 11, 21)
+  end
+
   def self.for_summary
     summary = {}
     categories = Tag.category_names.sort
@@ -230,7 +234,8 @@ class Proposal < ApplicationRecord
   end
 
   def archived?
-    created_at <= Setting.archived_proposals_date_limit
+    # created_at <= Time.zone.today #Setting.archived_proposals_date_limit
+    Time.zone.today >= Date.new(2024, 11, 21) #Setting.archived_proposals_date_limit
   end
 
   def notifications
