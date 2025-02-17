@@ -152,7 +152,7 @@ class Proposal < ApplicationRecord
   end
 
   def comments_closed?
-    Time.zone.today >= Date.new(2024, 11, 21)
+    Time.zone.today >= Date.new(2025, 11, 21)
   end
 
   def self.for_summary
@@ -235,7 +235,7 @@ class Proposal < ApplicationRecord
 
   def archived?
     # created_at <= Time.zone.today #Setting.archived_proposals_date_limit
-    Time.zone.today >= Date.new(2024, 11, 21) #Setting.archived_proposals_date_limit
+    Time.zone.today >= Date.new(2025, 11, 21) #Setting.archived_proposals_date_limit
   end
 
   def notifications
